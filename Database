@@ -255,19 +255,6 @@ characterDatabase[i].woundedHP = 5
 
 i = i+1
 characterDatabase[i] = {}
-characterDatabase[i].characterName = "Ghost-Spider"
-characterDatabase[i].characterBase = small
-characterDatabase[i].characterAsset3D = ""
-characterDatabase[i].characterAsset3DRotate = 0
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/1481072568114736834/8E37E568CD76DD870FB0F5297BE46228DAE65E79/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/1481072568114737042/1F26AE623277530A62E02AC869E4043CB5A82051/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 5
-characterDatabase[i].woundedHP = 5
-
-i = i+1
-characterDatabase[i] = {}
 characterDatabase[i].characterName = "Groot"
 characterDatabase[i].characterBase = medium
 characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034086324429675093/C913F1CBDEED2BB3D95BDA3483D26600FE36380C/"
