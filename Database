@@ -77,6 +77,20 @@ characterDatabase[i].woundedHP = 5
 
 i = i+1
 characterDatabase[i] = {}
+characterDatabase[i].characterName = "Ghost-Spider"
+characterDatabase[i].characterBase = small
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034086185600483542/8DA5018CAC030957F000DC2659FA1F88B6C79FFA/"
+characterDatabase[i].characterAsset3DRotate = 135
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129708166330356/762372051FD7EEC6D0BD4B85D5FAF18C443457A1/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129708166330888/7F454D28187151C4F27160DB4A86619BEB50745C/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].tokenName[0] = "Bleed"
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 5
+characterDatabase[i].woundedHP = 5
+
+i = i+1
+characterDatabase[i] = {}
 characterDatabase[i].characterName = "Black Dwarf"
 characterDatabase[i].characterBase = large
 characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034086808865894237/BE52551B339B9BDB1FD8BBDCB8235A5C3F37D8A0/"
