@@ -1,1 +1,988 @@
-testing
+objective = 1
+thanosObjective = 2
+small = 1.37795
+medium = 1.9685
+large = 2.55906
+
+characterDatabase = {}
+
+local i = 0
+
+characterDatabase[i] = {}
+characterDatabase[i].characterName = " "
+characterDatabase[i].characterBase = objective
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Thanos Encounter"
+characterDatabase[i].characterBase = thanosObjective
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Custom Small"
+characterDatabase[i].customChar = "Custom Small"
+characterDatabase[i].characterBase = small
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Custom Medium"
+characterDatabase[i].customChar = "Custom Medium"
+characterDatabase[i].characterBase = medium
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Custom Large"
+characterDatabase[i].customChar = "Custom Large"
+characterDatabase[i].characterBase = large
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].customChar = "Custom Character Card"
+characterDatabase[i].characterBase = small
+characterDatabase[i].characterAsset3D = ""
+characterDatabase[i].characterAsset2DF = ""
+characterDatabase[i].characterAsset2DB = ""
+characterDatabase[i].tokenName = {}
+characterDatabase[i].infinityGem = true
+characterDatabase[i].healthyHP = 99
+characterDatabase[i].woundedHP = 99
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Ant-Man"
+characterDatabase[i].characterBase = small
+characterDatabase[i].characterAsset3D = ""
+characterDatabase[i].characterAsset3DTiny = ""
+characterDatabase[i].characterAsset3DRotate = 0
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/1192839008794226136/38C7FCB2D16395E01668EA258E625C9FE0756AE8/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/1268274830565445567/FF776FFE9F3E267F78C0577F21EB1BBE38AC5498/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 5
+characterDatabase[i].woundedHP = 5
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Baron Zemo"
+characterDatabase[i].characterBase = small
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034086185600483542/8DA5018CAC030957F000DC2659FA1F88B6C79FFA/"
+characterDatabase[i].characterAsset3DRotate = 135
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129708166330356/762372051FD7EEC6D0BD4B85D5FAF18C443457A1/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129708166330888/7F454D28187151C4F27160DB4A86619BEB50745C/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].tokenName[0] = "Bleed"
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 5
+characterDatabase[i].woundedHP = 5
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Black Dwarf"
+characterDatabase[i].characterBase = large
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034086808865894237/BE52551B339B9BDB1FD8BBDCB8235A5C3F37D8A0/"
+characterDatabase[i].characterAsset3DRotate = 285
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/1044219484637941939/5D1B5407C9DFEFAD19184B5DBC910C462FE63F89/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/1044219484637942490/B75EBCD5C5E8C174D05427AC7ACBCB33CAC91CBD/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].tokenName[0] = "Stagger"
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 6
+characterDatabase[i].woundedHP = 8
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Black Panther"
+characterDatabase[i].characterBase = small
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034086324426425054/ABA880CCFA77DF4868A2305A643D237E325D3368/"
+characterDatabase[i].characterAsset3DRotate = 45
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129568344336709/776D431C75D4A52CA6011944B4B116BC73642FC8/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129568344337150/D3E73EE62B43AB97C8C80685F477FBDC7C948D7E/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 6
+characterDatabase[i].woundedHP = 6
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Black Widow"
+characterDatabase[i].characterBase = small
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034086185604627301/13BCE47E60A63973FA9B76C5E9B69286D835F182/"
+characterDatabase[i].characterAsset3DRotate = 90
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129708166519118/F4C2F7CF4813CDB23E3D9722D1A840E7566DB2C1/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129708166519718/9E1C02CBB757F6FD0A6952EDDCCEC956F607EFB3/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].tokenName[0] = "Stagger"
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 4
+characterDatabase[i].woundedHP = 4
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Black Widow, Agent of S.H.I.E.L.D."
+characterDatabase[i].characterBase = small
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1282912103329225751/AECBBF961F98897E1E4A0B7D7339FB35A6658999/"
+characterDatabase[i].characterAsset3DRotate = 225
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/1044219484637999524/0C2DD602F1E258F97325C7D9761BE4730967A297/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/1044219484637999965/0D908B2836EF653EBAE75AAB8C4FAFCD3AA91406/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].tokenName[0] = "Poison"
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 5
+characterDatabase[i].woundedHP = 5
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Captain America"
+characterDatabase[i].characterBase = small
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034086324430402900/AA3B60C44B1625C9680551ECCBBFAE53C5D01F36/"
+characterDatabase[i].characterAsset3DRotate = 195
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129708166443218/63B6C9DC1B30F0551297E7C3C981770E13E2E396/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129708166443788/D0373ADA1F521FDFC7248564225C48D6C2C62F0C/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 5
+characterDatabase[i].woundedHP = 6
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Captain Marvel"
+characterDatabase[i].characterBase = small
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034085930818332675/EFA27C0B561A484E157FC5C5AF16C58EB78B2C6E/"
+characterDatabase[i].characterAsset3DRotate = 0
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129708166610601/23C3EEBEF52BA69ED90BD33C5B41BEE51E31B168/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129708166611186/7841BFE50EB5379293A12E1A4FB924953C5E8612/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].tokenName[0] = "Binary Form"
+characterDatabase[i].tokenName[1] = "Stagger"
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 6
+characterDatabase[i].woundedHP = 6
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Corvus Glaive"
+characterDatabase[i].characterBase = medium
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1169194945073690917/180FCA38C6D9F0C97430880E9C4BEA2A96C65627/"
+characterDatabase[i].characterAsset3DRotate = 255
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/1044219484637927708/952EED00AE6295C33809A04D31473D530F0C8AA8/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/1044219484637928390/EF064BE9082F3071F6391C8DBE79B2D1229D3D8C/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].infinityGem = true
+characterDatabase[i].healthyHP = 6
+characterDatabase[i].woundedHP = 6
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Crossbones"
+characterDatabase[i].characterBase = small
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034086185603883443/176FDF94D8FB3912F6948F08EDF63C473E2EF7C1/"
+characterDatabase[i].characterAsset3DRotate = 255
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129708166562834/0995F9FED35517B5077F3D248BE8CB1041FF578F/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129708166563495/16E6C72F2DFFECD2912C461B88DF992C990B60FC/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 6
+characterDatabase[i].woundedHP = 5
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Doctor Octopus"
+characterDatabase[i].characterBase = medium
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034086185603342117/B086DF48DDE7946D3087288019AF3999E9C66F94/"
+characterDatabase[i].characterAsset3DRotate = 270
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129708166360409/103D3D5CF77A30E195749AAA1127FAFB7EAC4520/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129708166361100/A481160D827FD5C1BFC748C130CBED1CFF8C4A94/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 5
+characterDatabase[i].woundedHP = 6
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Doctor Strange"
+characterDatabase[i].characterBase = medium
+characterDatabase[i].characterAsset3D = ""
+characterDatabase[i].characterAsset3DRotate = 0
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/1268274830565413945/453B676B35763BBD373E1AC93E53517546E0C7F1/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/1268274830565442586/1212A0884A242F373FA4EA7BCB842004B9FC7FE6/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 5
+characterDatabase[i].woundedHP = 6
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Drax the Destroyer"
+characterDatabase[i].characterBase = small
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1282912103329226775/FC92FDFAEC5909DF28D4AB34896069A83D999978/"
+characterDatabase[i].characterAsset3DRotate = 180
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/1044219484637954521/6711327178FC68238ED7F180FE25B4E8DF9B16EB/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/1044219484637947407/8FDE7EF80026FFA7A0FE3CB7BEF5F241BD8B1FB3/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].tokenName[0] = "Vengeance"
+characterDatabase[i].tokenName[1] = "Bleed"
+characterDatabase[i].tokenName[2] = "Stun"
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 6
+characterDatabase[i].woundedHP = 6
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Ebony Maw"
+characterDatabase[i].characterBase = small
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1169194945073880562/C4BC48880AF562A3D7D19C93438029528906554D/"
+characterDatabase[i].characterAsset3DRotate = 225
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/1044219484637958764/2FC9BB79269B6F57EFD14C84DDA274A892DFA764/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/1044219484637960073/B224CBD12260CFE83364D119A4D00B330B6A28C0/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].infinityGem = true
+characterDatabase[i].healthyHP = 7
+characterDatabase[i].woundedHP = 4
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Gamora"
+characterDatabase[i].characterBase = small
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1169194945073103496/1618F7B9CEA92318DADFC807D2AC9AB2F081E82F/"
+characterDatabase[i].characterAsset3DRotate = 315
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/1044219484637962251/C3427AFEB7B3B7A09F456444139EA5CA226EAF0B/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/1044219484637962856/AD2E91438B9958622137A7809FCF294F40152A17/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].tokenName[0] = "Bleed"
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 5
+characterDatabase[i].woundedHP = 5
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Groot"
+characterDatabase[i].characterBase = medium
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034086324429675093/C913F1CBDEED2BB3D95BDA3483D26600FE36380C/"
+characterDatabase[i].characterAsset3DRotate = 300
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129568344644188/8C9CDDB9018C5191943B8052D2AC780046E1C324/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129568344644602/F582E706E8B99597E24DAC5DFBE5C193A74FA117/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].tokenName[0] = "Root"
+characterDatabase[i].tokenName[1] = "Stagger"
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 7
+characterDatabase[i].woundedHP = 7
+
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Hawkeye"
+characterDatabase[i].characterBase = small
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1282912103329228022/958F19A25D4B99985E92FD42E25AE3C3D9C4F022/"
+characterDatabase[i].characterAsset3DRotate = 90
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/1044219484637964039/51E41E016DD4D47E4B46CD914948E049C625EE79/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/1044219484637964698/926A7193358A5523CE7AC968517380751644E3EA/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].tokenName[0] = "Bleed"
+characterDatabase[i].tokenName[1] = "Shock"
+characterDatabase[i].tokenName[2] = "Slow"
+characterDatabase[i].tokenName[3] = "Poison"
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 4
+characterDatabase[i].woundedHP = 5
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Hela, Queen of Hel"
+characterDatabase[i].characterBase = medium
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034085930816293280/56F6A115AD5A6AE146D71F0CE0074931102E8567/"
+characterDatabase[i].characterAsset3DRotate = 90
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129568344587276/3EE0FBFC162E7D8836F921E135858B36A8B3A221/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129568344587907/F1C4B9EAEC07CF0611AEB5F9F4B03963EA82974E/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].tokenName[0] = "Captured Soul"
+characterDatabase[i].tokenName[1] = "Bleed"
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 6
+characterDatabase[i].woundedHP = 4
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Hulk"
+characterDatabase[i].characterBase = large
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034085930810381229/C659C0BFBC150D7940676FE7358F999F89B6D4F2/"
+characterDatabase[i].characterAsset3DRotate = 315
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129568344323914/E5D95807AD0FC3D8A3D7E74502ECD7BB4EDA42F8/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129568344324375/2A46BF7D91AD67AA22D0097DB46EE3232ADE1260/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].tokenName[0] = "Stagger"
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 20
+characterDatabase[i].woundedHP = 0
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Iron Man"
+characterDatabase[i].characterBase = small
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034085930811451349/0E6A50A2D4B43E43B50CBF3C88705B30BF14D0F4/"
+characterDatabase[i].characterAsset3DRotate = 105
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129708166482941/58D5772414B55D662D9E63E8515CBB9770DE497D/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129708166483668/71A656FD13B794B4A6720A384EFA12137A216E79/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 5
+characterDatabase[i].woundedHP = 5
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Killmonger"
+characterDatabase[i].characterBase = small
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034085930813422424/66A2C351D2EDFBC2E252EC5AEA9A726AE044F4E6/"
+characterDatabase[i].characterAsset3DRotate = 30
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/1016065725018531768/C87F6C2FAAE79A8CE12E37E098DE27FBAA3ED908/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/1016065725018532679/172FAD28C816515CB7A036D22E499832F5BA6780/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].tokenName[0] = "Kill Count"
+characterDatabase[i].tokenName[1] = "Stagger"
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 6
+characterDatabase[i].woundedHP = 5
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Loki, God of Mischief"
+characterDatabase[i].characterBase = small
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034085930815374206/D889FE6253D4834EC4ABA765BD1B5FC8C8C47B71/"
+characterDatabase[i].characterAsset3DRotate = 255
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129568344565819/380954BDA979E5573DF53D2694447AE150F43F88/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129568344566374/1EC9CCDC16F171904C736629726E575E3ED985AD/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].tokenName[0] = "Slow"
+characterDatabase[i].infinityGem = true
+characterDatabase[i].healthyHP = 5
+characterDatabase[i].woundedHP = 5
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "M.O.D.O.K."
+characterDatabase[i].characterBase = large
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034085930815683534/54CAEBDE152B0A1F93DB0CC59F7957EF68ABA6B5/"
+characterDatabase[i].characterAsset3DRotate = 240
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129568344600146/4AB2ADB8A99FF039AAD99AFB0D2F4F15E35B3D11/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129568344600696/44C2A8F83C676A56971F9CB01272527680E7472B/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].tokenName[0] = "Bleed"
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 10
+characterDatabase[i].woundedHP = 4
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Nebula"
+characterDatabase[i].characterBase = small
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1169194945073198778/BABB1141778C8A1C8D956E848F080C3BD7FA3A70/"
+characterDatabase[i].characterAsset3DRotate = 60
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/1044219484637966797/543DE264F1052B55D9B5473BC9A02771F6E042D3/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/1044219484637967580/B21AAB782F413AE126AA233A50CAA3E139FF7874/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].tokenName[0] = "Shock"
+characterDatabase[i].tokenName[1] = "Stun"
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 4
+characterDatabase[i].woundedHP = 5
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Okoye"
+characterDatabase[i].characterBase = small
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1169195415761396597/8E57D0EDB2D167C5075BE137A883ED01CDF84E80/"
+characterDatabase[i].characterAsset3DRotate = 105
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129568344464046/C0D7A9232F4F66106C1B1AE2902FE88D7F7EE42B/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129568344464465/BA7B562DD8AA74A445A3467DFBD1E4AC474E89E2/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 4
+characterDatabase[i].woundedHP = 4
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Proxima Midnight"
+characterDatabase[i].characterBase = small
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1169194945073308758/5295C819AEFC890EE4E72C8D332353A40EECF137/"
+characterDatabase[i].characterAsset3DRotate = 02
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/1044219484637969344/D6592761664A2910030D5F7459D82AC04D46B631/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/1044219484637970130/1E3477EC7A9FADAC35F7A198F934007B700DC4CF/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].tokenName[0] = "Bleed"
+characterDatabase[i].tokenName[1] = "Poison"
+characterDatabase[i].tokenName[2] = "Stun"
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 5
+characterDatabase[i].woundedHP = 5
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Red Skull"
+characterDatabase[i].characterBase = small
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034085930813423528/B8317EEA965E0A0CECB29570019DEFF8C450D161/"
+characterDatabase[i].characterAsset3DRotate = 285
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129708166575490/AB84B2666CAAD7B4F86C1C4E73249DAADB283D99/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129708166576012/B83EF0B5A1B4B72BA1FE8E7E65A2F457CE8B03B2/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].tokenName[0] = "Stun"
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 6
+characterDatabase[i].woundedHP = 6
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Rocket Racoon"
+characterDatabase[i].characterBase = small
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034086324430403942/CD7A7E33B50ADED0FE31C065C6B6B1904BDCF0C8/"
+characterDatabase[i].characterAsset3DRotate = 150
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129568344667975/78F285BA0ADA26D9F0930F6737DB5F2D5200610F/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129568344668394/6DB2ED2322053DBB326B8443AA313700805CFEB2/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 3
+characterDatabase[i].woundedHP = 3
+
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Ronan the Accuser"
+characterDatabase[i].characterBase = medium
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1169194945070746994/12F5280524BF5F619DDD311528D8AC90059DD2E9/"
+characterDatabase[i].characterAsset3DRotate = 285
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/1044219484637972107/08101FB875E85F482D204B8B021D945D1179B6DF/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/1044219484637972920/31F47300B766D5BB031FFDD706BD6C12E9A2D043/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].tokenName[0] = "Judgment"
+characterDatabase[i].tokenName[1] = "Shock"
+characterDatabase[i].tokenName[2] = "Stun"
+characterDatabase[i].tokenName[3] = "Stagger"
+characterDatabase[i].infinityGem = true
+characterDatabase[i].healthyHP = 6
+characterDatabase[i].woundedHP = 6
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Shuri"
+characterDatabase[i].characterBase = small
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1169195415760470087/9C480BDAEA08BA919A1F1BEF8B3FE6400C1A5387/"
+characterDatabase[i].characterAsset3DRotate = 135
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129568344474932/8D32BB8E03DA21D65450B3012D857FB168CAA11E/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129568344475348/00600D55E3D1F102E5BAB5807BABA9B2AC1E0169/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].tokenName[0] = "Stun"
+characterDatabase[i].tokenName[1] = "Stagger"
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 5
+characterDatabase[i].woundedHP = 5
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Spider-Man (Miles Morales)"
+characterDatabase[i].characterBase = small
+characterDatabase[i].characterAsset3D = ""
+characterDatabase[i].characterAsset3DRotate = 0
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/1481072391443800120/237B4BC2A453347272C254CCCFCDC5FDA533F260/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/1481072391443800335/14B799E9A3DCF26C12C87387FE6DADD14F698689/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 5
+characterDatabase[i].woundedHP = 5
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Spider-Man (Peter Parker)"
+characterDatabase[i].characterBase = small
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034085930814839090/C859554A9D44E86E5EFE7FB6F1119E64CB2A4EB9/"
+characterDatabase[i].characterAsset3DRotate = 0
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129708166463488/5EA97D1B37675DFA5CA0AE94416D75E3A47424FA/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129708166465100/07A04309F979FC08C4D2C5344391E9ACB82538DF/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].tokenName[0] = "Stun"
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 5
+characterDatabase[i].woundedHP = 5
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Star-Lord"
+characterDatabase[i].characterBase = small
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034086324429074056/6685225B96DE0ED5A62080D8F58462D209E9104A/"
+characterDatabase[i].characterAsset3DRotate = 270
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129708166422785/93DE12500ACF7286B8106851C40CB4FB8F976D8D/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129708166423309/865DF607316519E96CE78C13D8720A081DDB4210/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].tokenName[0] = "Winging It"
+characterDatabase[i].tokenName[1] = "Bleed"
+characterDatabase[i].tokenName[2] = "Shock"
+characterDatabase[i].tokenName[3] = "Slow"
+characterDatabase[i].tokenName[4] = "Stun"
+characterDatabase[i].infinityGem = true
+characterDatabase[i].healthyHP = 6
+characterDatabase[i].woundedHP = 5
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Thanos, The Mad Titan"
+characterDatabase[i].characterBase = medium
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1457428670514469993/BA6CA45C2D7E03F77F1540ABC53F089015060BFF/"
+characterDatabase[i].characterAsset3DRotate = 15
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/1192838843109483775/5587C7B521DD719F3D547D9849B1D1C403AA2F58/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/1192838843109484165/B69A24211744EE33249B59048B9BF700128D0691/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].tokenName[0] = "Slow"
+characterDatabase[i].infinityGem = true
+characterDatabase[i].healthyHP = 8
+characterDatabase[i].woundedHP = 9
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Thor, Prince of Asgard"
+characterDatabase[i].characterBase = small
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034085930813453370/54A4B33B59AD76AB669B1024ECC3D5DC8AAFD74A/"
+characterDatabase[i].characterAsset3DRotate = 0
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129708166388407/1505B4AC9DF5CE650C1F06BFA71224B4BD720A9F/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129708166389034/2958E2BBCF732420471203126A2B076AD1FBCD03/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].tokenName[0] = "Shock"
+characterDatabase[i].tokenName[1] = "Stagger"
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 6
+characterDatabase[i].woundedHP = 8
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Ultron"
+characterDatabase[i].characterBase = medium
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034086185604320460/746EC75CD4CB600331571700326ECED4962358C6/"
+characterDatabase[i].characterAsset3DRotate = 210
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129708166352619/C274B1A122707B1FA069725DC39FA01DA2CFE31B/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129708166353271/E2C4297054CE510BBC2575F3FF0C437C8CBC4D36/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].tokenName[0] = "Bleed"
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 6
+characterDatabase[i].woundedHP = 5
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Valkyrie"
+characterDatabase[i].characterBase = small
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034085930810395805/223E4D91CC3A7D607F17070C2AECA361342DD963/"
+characterDatabase[i].characterAsset3DRotate = 15
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129568344515991/4ECFECCC7F532521AF0F93A36F8EF88102FB1504/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129568344516406/ADA3FCDBF39F4E44EFC7898E139CB506E2F2F263/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].tokenName[0] = "Bleed"
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 6
+characterDatabase[i].woundedHP = 5
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Venom"
+characterDatabase[i].characterBase = medium
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034086185603028001/EFE3B0D02999477FAF455AF12AF7595FC6D55FC5/"
+characterDatabase[i].characterAsset3DRotate = 195
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129568344723484/1EA6B92540A5B08B0F5201224422044AB14C3F39/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129568344723860/90FDC45DB99C674A156FC3BC3CBEB716EA3E6B6F/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].tokenName[0] = "Bleed"
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 7
+characterDatabase[i].woundedHP = 6
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Vision"
+characterDatabase[i].characterBase = small
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1169195415761395607/634DA7B8C076BF77F27B439BF32E8246B7B89F7A/"
+characterDatabase[i].characterAsset3DRotate = 75
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129568344371153/C20319BE379696BC61C9C4793EB82A2AC806AF3D/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129568344373611/AFAED7897A2A538499F314E2FA3AAA8577B2A9E5/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].tokenName[0] = "Phase"
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 6
+characterDatabase[i].woundedHP = 6
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Wasp"
+characterDatabase[i].characterBase = small
+characterDatabase[i].characterAsset3D = ""
+characterDatabase[i].characterAsset3DTiny = ""
+characterDatabase[i].characterAsset3DRotate = 0
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/1192839008797621701/85A6B0FDA3AED728191B2999D97830F8B5157C87/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/1268274830565446198/FF547DE49501DB3951EA4D6A25D14A36607CD71F/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 5
+characterDatabase[i].woundedHP = 6
+
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Winter Soldier"
+characterDatabase[i].characterBase = small
+characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034086185602680172/0C807A3765EFBC30FC09C70C7DBCBE2F33BC525C/"
+characterDatabase[i].characterAsset3DRotate = 105
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129568344446756/F59B50B4B5661EA3AA298C0414D303BF0C0B160D/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129568344447269/41091B293A80CE4DC47271B5041FF71224258858/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].tokenName[0] = "Bleed"
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 5
+characterDatabase[i].woundedHP = 6
+
+i = i+1
+characterDatabase[i] = {}
+characterDatabase[i].characterName = "Wong"
+characterDatabase[i].characterBase = small
+characterDatabase[i].characterAsset3D = ""
+characterDatabase[i].characterAsset3DRotate = 0
+characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/1268274830565414432/445A475AD171E756E8B03ABCB097E8D4A6899F54/"
+characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/1268274830565443189/BE1B123CC97000B21618B6BAD8DAE14130D44107/"
+characterDatabase[i].tokenName = {}
+characterDatabase[i].tokenName[0] = "Bleed"
+characterDatabase[i].infinityGem = false
+characterDatabase[i].healthyHP = 5
+characterDatabase[i].woundedHP = 6
+
+
+
+
+
+
+
+
+
+smallT = 0.5
+largeT = 1
+thicT = 2
+
+smallM = "http://cloud-3.steamusercontent.com/ugc/1017195921940276281/DFBD6F3B85D31752E7E5266EAB49D16778F02BDA/"
+largeM = "http://cloud-3.steamusercontent.com/ugc/1017195921940355346/B89DC0907D04E4273E6C957FFA81E866A7EFCC0E/"
+
+--OBJECTIVE TOKENS FIRST
+
+i = 0
+tokenDatabase = {}
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Citizen"
+tokenDatabase[i].tokenDescription = "Objective"
+tokenDatabase[i].tokenSize = largeT
+tokenDatabase[i].tokenMesh = largeM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941296855/0754B9CA77BBBE6B8DACADD1C015EB0202B9563E/"
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Gamma Shelter"
+tokenDatabase[i].tokenDescription = "Objective"
+tokenDatabase[i].tokenSize = largeT
+tokenDatabase[i].tokenMesh = largeM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941290061/90416D760764CF7951260C527D07D8EF3D80E711/"
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Priority"
+tokenDatabase[i].tokenDescription = ""
+tokenDatabase[i].tokenSize = largeT
+tokenDatabase[i].tokenMesh = largeM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941288582/C1499AD0056BAAE1E46D826B44D0870D623A8844/"
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Extremis Console"
+tokenDatabase[i].tokenDescription = "Objective"
+tokenDatabase[i].tokenSize = largeT
+tokenDatabase[i].tokenMesh = largeM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921940470361/1A1224D001EAEB147D588DF6A2454B8EECD4CFD0/"
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Serum Canister"
+tokenDatabase[i].tokenDescription = "Objective"
+tokenDatabase[i].tokenSize = largeT
+tokenDatabase[i].tokenMesh = largeM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921940474509/BB57B8CE019FF04FC7ACC523288C3DA93B8708C8/"
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Amplification Module 1"
+tokenDatabase[i].tokenDescription = "Objective"
+tokenDatabase[i].tokenSize = thicT
+tokenDatabase[i].tokenMesh = largeM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1481072688820603783/7630141D49B8C6CC11DF584B1C89F4BB85937EFF/"
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Amplification Module 2"
+tokenDatabase[i].tokenDescription = "Objective"
+tokenDatabase[i].tokenSize = thicT
+tokenDatabase[i].tokenMesh = largeM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1481072688820604451/78B080B5B1A7BAA4BFDC410FBC733B6A3A97FB26/"
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Amplification Module 3"
+tokenDatabase[i].tokenDescription = "Objective"
+tokenDatabase[i].tokenSize = thicT
+tokenDatabase[i].tokenMesh = largeM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1481072688820635213/828F024180226B8A254B6B5579CEC45E913BE974/"
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Nullifier Beam"
+tokenDatabase[i].tokenDescription = "Objective"
+tokenDatabase[i].tokenSize = thicT
+tokenDatabase[i].tokenMesh = largeM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1481072688820638225/FA71BE4DF8D2F49A74F5BB17EDD63700B5BC4113/"
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Supply Cashe"
+tokenDatabase[i].tokenDescription = "Objective"
+tokenDatabase[i].tokenSize = thicT
+tokenDatabase[i].tokenMesh = largeM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1481072688820639954/E7AB1084B581CB993CAC74569B17DCDDC57BE54E/"
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Antimatter Core"
+tokenDatabase[i].tokenDescription = "Objective"
+tokenDatabase[i].tokenSize = smallT
+tokenDatabase[i].tokenMesh = smallM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1481072688820636025/7B3452FE097F1A2721576D596B65493F322C72DA/"
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Suppression"
+tokenDatabase[i].tokenDescription = "Objective"
+tokenDatabase[i].tokenSize = smallT
+tokenDatabase[i].tokenMesh = smallM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1481072688820639091/4E9394D471F7C10BD58649B05CBFAFD4D4A81B7A/"
+
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Activated"
+tokenDatabase[i].tokenDescription = "Character has activated this round"
+tokenDatabase[i].tokenSize = smallT
+tokenDatabase[i].tokenMesh = smallM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941281151/92A430497EEB1DEC417275BC995E862722E242DD/"
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Dazed"
+tokenDatabase[i].tokenDescription = "Character has been dazed"
+tokenDatabase[i].tokenSize = smallT
+tokenDatabase[i].tokenMesh = smallM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941288062/BB613EFD6290ED99AAD77827FFC54F5761A3AD58/"
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Binary Form"
+tokenDatabase[i].tokenDescription = ""
+tokenDatabase[i].tokenSize = smallT
+tokenDatabase[i].tokenMesh = smallM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941282318/5CEA94C3025112943699710DD297FC3078E7226E/"
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Captured Soul"
+tokenDatabase[i].tokenDescription = ""
+tokenDatabase[i].tokenSize = smallT
+tokenDatabase[i].tokenMesh = smallM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941284706/06B1526E80518CAB3D6CB3E27E60BC535E7C8C88/"
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Kill Count"
+tokenDatabase[i].tokenDescription = ""
+tokenDatabase[i].tokenSize = smallT
+tokenDatabase[i].tokenMesh = smallM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941291832/0EB9E943F0DC00BD58E4889B6FB5D3CE98EA6F30/"
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Phase"
+tokenDatabase[i].tokenDescription = ""
+tokenDatabase[i].tokenSize = smallT
+tokenDatabase[i].tokenMesh = smallM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941293069/6755A7EB81029DA94E1F008223C8F083C47A92B5/"
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Vengeance"
+tokenDatabase[i].tokenDescription = ""
+tokenDatabase[i].tokenSize = smallT
+tokenDatabase[i].tokenMesh = smallM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1306556098151141918/06D78575B083534490D2990B49E81CCA5158A65E/"
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Winging It"
+tokenDatabase[i].tokenDescription = "After rolling attack dice, defense dice, or dodge dice, discard this token and reroll up to 2 dice. Can only be used once per dice roll."
+tokenDatabase[i].tokenSize = smallT
+tokenDatabase[i].tokenMesh = smallM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941302217/AD4E3B69677290F89E346221D4D8CB0869E872D8/"
+
+
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Bleed"
+tokenDatabase[i].tokenDescription = "The character suffer 1 damage at the end of each of its activations."
+tokenDatabase[i].tokenSize = smallT
+tokenDatabase[i].tokenMesh = smallM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941282641/8FDB19994142BD83D0642A7406639AAAD4CC28BF/"
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Hex"
+tokenDatabase[i].tokenDescription = "The character doesn't roll additional dice for its critical results during attack, defense, or dodge rolls."
+tokenDatabase[i].tokenSize = smallT
+tokenDatabase[i].tokenMesh = smallM
+tokenDatabase[i].tokenImage = ""
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Incinerate"
+tokenDatabase[i].tokenDescription = "The character removes one die from its defense rolls."
+tokenDatabase[i].tokenSize = smallT
+tokenDatabase[i].tokenMesh = smallM
+tokenDatabase[i].tokenImage = ""
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Judgment"
+tokenDatabase[i].tokenDescription = "The character does not gain power when suffering damage from enemy attacks."
+tokenDatabase[i].tokenSize = smallT
+tokenDatabase[i].tokenMesh = smallM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1306556098151142541/920BB85346140D70236DE4C39E949C3718941B77/"
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Poison"
+tokenDatabase[i].tokenDescription = "The character loses 1 power during the power phase."
+tokenDatabase[i].tokenSize = smallT
+tokenDatabase[i].tokenMesh = smallM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1044219885548746343/A62FC561582CBB146BBF986B767972F01BC51610/"
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Root"
+tokenDatabase[i].tokenDescription = "The character must spend 1 power before using active or reactive super power."
+tokenDatabase[i].tokenSize = smallT
+tokenDatabase[i].tokenMesh = smallM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941294146/A6050EF59172F6995378D40BC41438DD824F0531/"
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Shock"
+tokenDatabase[i].tokenDescription = "The character removes one die from its attack rolls."
+tokenDatabase[i].tokenSize = smallT
+tokenDatabase[i].tokenMesh = smallM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941295865/D05922002610169786C00AE3B0007BE5E6C54D04/"
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Slow"
+tokenDatabase[i].tokenDescription = "The character can only use the Short movement tool while advancing."
+tokenDatabase[i].tokenSize = smallT
+tokenDatabase[i].tokenMesh = smallM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941296350/928CAB2ADD1EBD3E4846262793C4A23016C9FC41/"
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Stun"
+tokenDatabase[i].tokenDescription = "If an effect would cause the character to gain more then 1 power, it gains only 1 power instead."
+tokenDatabase[i].tokenSize = smallT
+tokenDatabase[i].tokenMesh = smallM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941298718/00A1D69213C8659C5797A38AD36DADFD2DF45775/"
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Stagger"
+tokenDatabase[i].tokenDescription = "When the character activates its first action must be a Shake action. This Shake action must remove Stagger special condition."
+tokenDatabase[i].tokenSize = smallT
+tokenDatabase[i].tokenMesh = smallM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941297959/02A1A842C3874A486F0C13D10DF556D11B19814B/"
+
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Stagger"
+tokenDatabase[i].tokenDescription = "When the character activates its first action must be a Shake action. This Shake action must remove Stagger special condition."
+tokenDatabase[i].tokenSize = smallT
+tokenDatabase[i].tokenMesh = smallM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941297959/02A1A842C3874A486F0C13D10DF556D11B19814B/"
+
+
+
+--**********KEEP AFFILIATION TOKENS LAST
+--KEEP AVENGERS AS THE FIRST AFFILIATION
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Avengers"
+tokenDatabase[i].tokenDescription = "Affiliation"
+tokenDatabase[i].tokenSize = smallT
+tokenDatabase[i].tokenMesh = smallM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941281993/B7A024B7F8E2262E9A8D812075AC5597AC4678F2/"
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Black Order"
+tokenDatabase[i].tokenDescription = "Affiliation"
+tokenDatabase[i].tokenSize = smallT
+tokenDatabase[i].tokenMesh = smallM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1044219885548748825/8EF3E7B98703A054B40E572AED1F947839C82D96/"
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Guardians of the Galaxy"
+tokenDatabase[i].tokenDescription = "Affiliation"
+tokenDatabase[i].tokenSize = smallT
+tokenDatabase[i].tokenMesh = smallM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941290509/DB38B0FEF050F173AAA470452F804CD381F30D9F/"
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Wakanda"
+tokenDatabase[i].tokenDescription = "Affiliation"
+tokenDatabase[i].tokenSize = smallT
+tokenDatabase[i].tokenMesh = smallM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941301248/B555F75A79206E360EF742C311B1B5BB82C5DFEA/"
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Web-Warriors"
+tokenDatabase[i].tokenDescription = "Affiliation"
+tokenDatabase[i].tokenSize = smallT
+tokenDatabase[i].tokenMesh = smallM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941301694/74233FAA1DFE83B68779A47AF14596C16687F71B/"
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Asgard"
+tokenDatabase[i].tokenDescription = "Affiliation"
+tokenDatabase[i].tokenSize = smallT
+tokenDatabase[i].tokenMesh = smallM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941281664/F32D62D471D1BDDE1141CE6EB313CDFB7084021E/"
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Captain America Shield"
+tokenDatabase[i].tokenDescription = "Affiliation"
+tokenDatabase[i].tokenSize = smallT
+tokenDatabase[i].tokenMesh = smallM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941284361/E76DFE2FD9621E40A0CBFF68A9F3020ABB1211D7/"
+
+i = i+1
+tokenDatabase[i] = {}
+tokenDatabase[i].tokenName = "Cabal"
+tokenDatabase[i].tokenDescription = "Affiliation"
+tokenDatabase[i].tokenSize = smallT
+tokenDatabase[i].tokenMesh = smallM
+tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941283841/C7FBBB6EAB2C0B4E0E829D398D7D52BDC3A063C6/"
+--MAKE SURE TO KEEP CABAL AS THE LAST TOKEN
