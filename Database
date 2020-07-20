@@ -986,3 +986,4 @@ tokenDatabase[i].tokenSize = smallT
 tokenDatabase[i].tokenMesh = smallM
 tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941283841/C7FBBB6EAB2C0B4E0E829D398D7D52BDC3A063C6/"
 --MAKE SURE TO KEEP CABAL AS THE LAST TOKEN
+--it worked!
