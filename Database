@@ -1,989 +1,518 @@
-objective = 1
-thanosObjective = 2
-small = 1.37795
-medium = 1.9685
-large = 2.55906
-
-characterDatabase = {}
-
-local i = 0
-
-characterDatabase[i] = {}
-characterDatabase[i].characterName = " "
-characterDatabase[i].characterBase = objective
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Thanos Encounter"
-characterDatabase[i].characterBase = thanosObjective
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Custom Small"
-characterDatabase[i].customChar = "Custom Small"
-characterDatabase[i].characterBase = small
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Custom Medium"
-characterDatabase[i].customChar = "Custom Medium"
-characterDatabase[i].characterBase = medium
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Custom Large"
-characterDatabase[i].customChar = "Custom Large"
-characterDatabase[i].characterBase = large
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].customChar = "Custom Character Card"
-characterDatabase[i].characterBase = small
-characterDatabase[i].characterAsset3D = ""
-characterDatabase[i].characterAsset2DF = ""
-characterDatabase[i].characterAsset2DB = ""
-characterDatabase[i].tokenName = {}
-characterDatabase[i].infinityGem = true
-characterDatabase[i].healthyHP = 99
-characterDatabase[i].woundedHP = 99
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Ant-Man"
-characterDatabase[i].characterBase = small
-characterDatabase[i].characterAsset3D = ""
-characterDatabase[i].characterAsset3DTiny = ""
-characterDatabase[i].characterAsset3DRotate = 0
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/1192839008794226136/38C7FCB2D16395E01668EA258E625C9FE0756AE8/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/1268274830565445567/FF776FFE9F3E267F78C0577F21EB1BBE38AC5498/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 5
-characterDatabase[i].woundedHP = 5
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Baron Zemo"
-characterDatabase[i].characterBase = small
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034086185600483542/8DA5018CAC030957F000DC2659FA1F88B6C79FFA/"
-characterDatabase[i].characterAsset3DRotate = 135
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129708166330356/762372051FD7EEC6D0BD4B85D5FAF18C443457A1/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129708166330888/7F454D28187151C4F27160DB4A86619BEB50745C/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].tokenName[0] = "Bleed"
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 5
-characterDatabase[i].woundedHP = 5
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Black Dwarf"
-characterDatabase[i].characterBase = large
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034086808865894237/BE52551B339B9BDB1FD8BBDCB8235A5C3F37D8A0/"
-characterDatabase[i].characterAsset3DRotate = 285
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/1044219484637941939/5D1B5407C9DFEFAD19184B5DBC910C462FE63F89/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/1044219484637942490/B75EBCD5C5E8C174D05427AC7ACBCB33CAC91CBD/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].tokenName[0] = "Stagger"
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 6
-characterDatabase[i].woundedHP = 8
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Black Panther"
-characterDatabase[i].characterBase = small
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034086324426425054/ABA880CCFA77DF4868A2305A643D237E325D3368/"
-characterDatabase[i].characterAsset3DRotate = 45
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129568344336709/776D431C75D4A52CA6011944B4B116BC73642FC8/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129568344337150/D3E73EE62B43AB97C8C80685F477FBDC7C948D7E/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 6
-characterDatabase[i].woundedHP = 6
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Black Widow"
-characterDatabase[i].characterBase = small
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034086185604627301/13BCE47E60A63973FA9B76C5E9B69286D835F182/"
-characterDatabase[i].characterAsset3DRotate = 90
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129708166519118/F4C2F7CF4813CDB23E3D9722D1A840E7566DB2C1/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129708166519718/9E1C02CBB757F6FD0A6952EDDCCEC956F607EFB3/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].tokenName[0] = "Stagger"
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 4
-characterDatabase[i].woundedHP = 4
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Black Widow, Agent of S.H.I.E.L.D."
-characterDatabase[i].characterBase = small
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1282912103329225751/AECBBF961F98897E1E4A0B7D7339FB35A6658999/"
-characterDatabase[i].characterAsset3DRotate = 225
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/1044219484637999524/0C2DD602F1E258F97325C7D9761BE4730967A297/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/1044219484637999965/0D908B2836EF653EBAE75AAB8C4FAFCD3AA91406/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].tokenName[0] = "Poison"
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 5
-characterDatabase[i].woundedHP = 5
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Captain America"
-characterDatabase[i].characterBase = small
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034086324430402900/AA3B60C44B1625C9680551ECCBBFAE53C5D01F36/"
-characterDatabase[i].characterAsset3DRotate = 195
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129708166443218/63B6C9DC1B30F0551297E7C3C981770E13E2E396/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129708166443788/D0373ADA1F521FDFC7248564225C48D6C2C62F0C/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 5
-characterDatabase[i].woundedHP = 6
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Captain Marvel"
-characterDatabase[i].characterBase = small
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034085930818332675/EFA27C0B561A484E157FC5C5AF16C58EB78B2C6E/"
-characterDatabase[i].characterAsset3DRotate = 0
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129708166610601/23C3EEBEF52BA69ED90BD33C5B41BEE51E31B168/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129708166611186/7841BFE50EB5379293A12E1A4FB924953C5E8612/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].tokenName[0] = "Binary Form"
-characterDatabase[i].tokenName[1] = "Stagger"
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 6
-characterDatabase[i].woundedHP = 6
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Corvus Glaive"
-characterDatabase[i].characterBase = medium
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1169194945073690917/180FCA38C6D9F0C97430880E9C4BEA2A96C65627/"
-characterDatabase[i].characterAsset3DRotate = 255
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/1044219484637927708/952EED00AE6295C33809A04D31473D530F0C8AA8/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/1044219484637928390/EF064BE9082F3071F6391C8DBE79B2D1229D3D8C/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].infinityGem = true
-characterDatabase[i].healthyHP = 6
-characterDatabase[i].woundedHP = 6
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Crossbones"
-characterDatabase[i].characterBase = small
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034086185603883443/176FDF94D8FB3912F6948F08EDF63C473E2EF7C1/"
-characterDatabase[i].characterAsset3DRotate = 255
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129708166562834/0995F9FED35517B5077F3D248BE8CB1041FF578F/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129708166563495/16E6C72F2DFFECD2912C461B88DF992C990B60FC/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 6
-characterDatabase[i].woundedHP = 5
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Doctor Octopus"
-characterDatabase[i].characterBase = medium
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034086185603342117/B086DF48DDE7946D3087288019AF3999E9C66F94/"
-characterDatabase[i].characterAsset3DRotate = 270
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129708166360409/103D3D5CF77A30E195749AAA1127FAFB7EAC4520/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129708166361100/A481160D827FD5C1BFC748C130CBED1CFF8C4A94/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 5
-characterDatabase[i].woundedHP = 6
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Doctor Strange"
-characterDatabase[i].characterBase = medium
-characterDatabase[i].characterAsset3D = ""
-characterDatabase[i].characterAsset3DRotate = 0
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/1268274830565413945/453B676B35763BBD373E1AC93E53517546E0C7F1/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/1268274830565442586/1212A0884A242F373FA4EA7BCB842004B9FC7FE6/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 5
-characterDatabase[i].woundedHP = 6
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Drax the Destroyer"
-characterDatabase[i].characterBase = small
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1282912103329226775/FC92FDFAEC5909DF28D4AB34896069A83D999978/"
-characterDatabase[i].characterAsset3DRotate = 180
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/1044219484637954521/6711327178FC68238ED7F180FE25B4E8DF9B16EB/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/1044219484637947407/8FDE7EF80026FFA7A0FE3CB7BEF5F241BD8B1FB3/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].tokenName[0] = "Vengeance"
-characterDatabase[i].tokenName[1] = "Bleed"
-characterDatabase[i].tokenName[2] = "Stun"
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 6
-characterDatabase[i].woundedHP = 6
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Ebony Maw"
-characterDatabase[i].characterBase = small
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1169194945073880562/C4BC48880AF562A3D7D19C93438029528906554D/"
-characterDatabase[i].characterAsset3DRotate = 225
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/1044219484637958764/2FC9BB79269B6F57EFD14C84DDA274A892DFA764/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/1044219484637960073/B224CBD12260CFE83364D119A4D00B330B6A28C0/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].infinityGem = true
-characterDatabase[i].healthyHP = 7
-characterDatabase[i].woundedHP = 4
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Gamora"
-characterDatabase[i].characterBase = small
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1169194945073103496/1618F7B9CEA92318DADFC807D2AC9AB2F081E82F/"
-characterDatabase[i].characterAsset3DRotate = 315
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/1044219484637962251/C3427AFEB7B3B7A09F456444139EA5CA226EAF0B/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/1044219484637962856/AD2E91438B9958622137A7809FCF294F40152A17/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].tokenName[0] = "Bleed"
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 5
-characterDatabase[i].woundedHP = 5
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Groot"
-characterDatabase[i].characterBase = medium
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034086324429675093/C913F1CBDEED2BB3D95BDA3483D26600FE36380C/"
-characterDatabase[i].characterAsset3DRotate = 300
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129568344644188/8C9CDDB9018C5191943B8052D2AC780046E1C324/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129568344644602/F582E706E8B99597E24DAC5DFBE5C193A74FA117/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].tokenName[0] = "Root"
-characterDatabase[i].tokenName[1] = "Stagger"
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 7
-characterDatabase[i].woundedHP = 7
-
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Hawkeye"
-characterDatabase[i].characterBase = small
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1282912103329228022/958F19A25D4B99985E92FD42E25AE3C3D9C4F022/"
-characterDatabase[i].characterAsset3DRotate = 90
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/1044219484637964039/51E41E016DD4D47E4B46CD914948E049C625EE79/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/1044219484637964698/926A7193358A5523CE7AC968517380751644E3EA/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].tokenName[0] = "Bleed"
-characterDatabase[i].tokenName[1] = "Shock"
-characterDatabase[i].tokenName[2] = "Slow"
-characterDatabase[i].tokenName[3] = "Poison"
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 4
-characterDatabase[i].woundedHP = 5
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Hela, Queen of Hel"
-characterDatabase[i].characterBase = medium
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034085930816293280/56F6A115AD5A6AE146D71F0CE0074931102E8567/"
-characterDatabase[i].characterAsset3DRotate = 90
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129568344587276/3EE0FBFC162E7D8836F921E135858B36A8B3A221/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129568344587907/F1C4B9EAEC07CF0611AEB5F9F4B03963EA82974E/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].tokenName[0] = "Captured Soul"
-characterDatabase[i].tokenName[1] = "Bleed"
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 6
-characterDatabase[i].woundedHP = 4
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Hulk"
-characterDatabase[i].characterBase = large
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034085930810381229/C659C0BFBC150D7940676FE7358F999F89B6D4F2/"
-characterDatabase[i].characterAsset3DRotate = 315
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129568344323914/E5D95807AD0FC3D8A3D7E74502ECD7BB4EDA42F8/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129568344324375/2A46BF7D91AD67AA22D0097DB46EE3232ADE1260/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].tokenName[0] = "Stagger"
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 20
-characterDatabase[i].woundedHP = 0
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Iron Man"
-characterDatabase[i].characterBase = small
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034085930811451349/0E6A50A2D4B43E43B50CBF3C88705B30BF14D0F4/"
-characterDatabase[i].characterAsset3DRotate = 105
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129708166482941/58D5772414B55D662D9E63E8515CBB9770DE497D/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129708166483668/71A656FD13B794B4A6720A384EFA12137A216E79/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 5
-characterDatabase[i].woundedHP = 5
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Killmonger"
-characterDatabase[i].characterBase = small
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034085930813422424/66A2C351D2EDFBC2E252EC5AEA9A726AE044F4E6/"
-characterDatabase[i].characterAsset3DRotate = 30
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/1016065725018531768/C87F6C2FAAE79A8CE12E37E098DE27FBAA3ED908/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/1016065725018532679/172FAD28C816515CB7A036D22E499832F5BA6780/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].tokenName[0] = "Kill Count"
-characterDatabase[i].tokenName[1] = "Stagger"
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 6
-characterDatabase[i].woundedHP = 5
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Loki, God of Mischief"
-characterDatabase[i].characterBase = small
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034085930815374206/D889FE6253D4834EC4ABA765BD1B5FC8C8C47B71/"
-characterDatabase[i].characterAsset3DRotate = 255
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129568344565819/380954BDA979E5573DF53D2694447AE150F43F88/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129568344566374/1EC9CCDC16F171904C736629726E575E3ED985AD/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].tokenName[0] = "Slow"
-characterDatabase[i].infinityGem = true
-characterDatabase[i].healthyHP = 5
-characterDatabase[i].woundedHP = 5
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "M.O.D.O.K."
-characterDatabase[i].characterBase = large
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034085930815683534/54CAEBDE152B0A1F93DB0CC59F7957EF68ABA6B5/"
-characterDatabase[i].characterAsset3DRotate = 240
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129568344600146/4AB2ADB8A99FF039AAD99AFB0D2F4F15E35B3D11/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129568344600696/44C2A8F83C676A56971F9CB01272527680E7472B/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].tokenName[0] = "Bleed"
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 10
-characterDatabase[i].woundedHP = 4
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Nebula"
-characterDatabase[i].characterBase = small
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1169194945073198778/BABB1141778C8A1C8D956E848F080C3BD7FA3A70/"
-characterDatabase[i].characterAsset3DRotate = 60
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/1044219484637966797/543DE264F1052B55D9B5473BC9A02771F6E042D3/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/1044219484637967580/B21AAB782F413AE126AA233A50CAA3E139FF7874/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].tokenName[0] = "Shock"
-characterDatabase[i].tokenName[1] = "Stun"
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 4
-characterDatabase[i].woundedHP = 5
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Okoye"
-characterDatabase[i].characterBase = small
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1169195415761396597/8E57D0EDB2D167C5075BE137A883ED01CDF84E80/"
-characterDatabase[i].characterAsset3DRotate = 105
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129568344464046/C0D7A9232F4F66106C1B1AE2902FE88D7F7EE42B/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129568344464465/BA7B562DD8AA74A445A3467DFBD1E4AC474E89E2/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 4
-characterDatabase[i].woundedHP = 4
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Proxima Midnight"
-characterDatabase[i].characterBase = small
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1169194945073308758/5295C819AEFC890EE4E72C8D332353A40EECF137/"
-characterDatabase[i].characterAsset3DRotate = 02
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/1044219484637969344/D6592761664A2910030D5F7459D82AC04D46B631/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/1044219484637970130/1E3477EC7A9FADAC35F7A198F934007B700DC4CF/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].tokenName[0] = "Bleed"
-characterDatabase[i].tokenName[1] = "Poison"
-characterDatabase[i].tokenName[2] = "Stun"
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 5
-characterDatabase[i].woundedHP = 5
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Red Skull"
-characterDatabase[i].characterBase = small
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034085930813423528/B8317EEA965E0A0CECB29570019DEFF8C450D161/"
-characterDatabase[i].characterAsset3DRotate = 285
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129708166575490/AB84B2666CAAD7B4F86C1C4E73249DAADB283D99/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129708166576012/B83EF0B5A1B4B72BA1FE8E7E65A2F457CE8B03B2/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].tokenName[0] = "Stun"
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 6
-characterDatabase[i].woundedHP = 6
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Rocket Racoon"
-characterDatabase[i].characterBase = small
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034086324430403942/CD7A7E33B50ADED0FE31C065C6B6B1904BDCF0C8/"
-characterDatabase[i].characterAsset3DRotate = 150
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129568344667975/78F285BA0ADA26D9F0930F6737DB5F2D5200610F/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129568344668394/6DB2ED2322053DBB326B8443AA313700805CFEB2/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 3
-characterDatabase[i].woundedHP = 3
-
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Ronan the Accuser"
-characterDatabase[i].characterBase = medium
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1169194945070746994/12F5280524BF5F619DDD311528D8AC90059DD2E9/"
-characterDatabase[i].characterAsset3DRotate = 285
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/1044219484637972107/08101FB875E85F482D204B8B021D945D1179B6DF/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/1044219484637972920/31F47300B766D5BB031FFDD706BD6C12E9A2D043/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].tokenName[0] = "Judgment"
-characterDatabase[i].tokenName[1] = "Shock"
-characterDatabase[i].tokenName[2] = "Stun"
-characterDatabase[i].tokenName[3] = "Stagger"
-characterDatabase[i].infinityGem = true
-characterDatabase[i].healthyHP = 6
-characterDatabase[i].woundedHP = 6
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Shuri"
-characterDatabase[i].characterBase = small
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1169195415760470087/9C480BDAEA08BA919A1F1BEF8B3FE6400C1A5387/"
-characterDatabase[i].characterAsset3DRotate = 135
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129568344474932/8D32BB8E03DA21D65450B3012D857FB168CAA11E/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129568344475348/00600D55E3D1F102E5BAB5807BABA9B2AC1E0169/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].tokenName[0] = "Stun"
-characterDatabase[i].tokenName[1] = "Stagger"
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 5
-characterDatabase[i].woundedHP = 5
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Spider-Man (Miles Morales)"
-characterDatabase[i].characterBase = small
-characterDatabase[i].characterAsset3D = ""
-characterDatabase[i].characterAsset3DRotate = 0
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/1481072391443800120/237B4BC2A453347272C254CCCFCDC5FDA533F260/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/1481072391443800335/14B799E9A3DCF26C12C87387FE6DADD14F698689/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 5
-characterDatabase[i].woundedHP = 5
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Spider-Man (Peter Parker)"
-characterDatabase[i].characterBase = small
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034085930814839090/C859554A9D44E86E5EFE7FB6F1119E64CB2A4EB9/"
-characterDatabase[i].characterAsset3DRotate = 0
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129708166463488/5EA97D1B37675DFA5CA0AE94416D75E3A47424FA/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129708166465100/07A04309F979FC08C4D2C5344391E9ACB82538DF/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].tokenName[0] = "Stun"
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 5
-characterDatabase[i].woundedHP = 5
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Star-Lord"
-characterDatabase[i].characterBase = small
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034086324429074056/6685225B96DE0ED5A62080D8F58462D209E9104A/"
-characterDatabase[i].characterAsset3DRotate = 270
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129708166422785/93DE12500ACF7286B8106851C40CB4FB8F976D8D/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129708166423309/865DF607316519E96CE78C13D8720A081DDB4210/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].tokenName[0] = "Winging It"
-characterDatabase[i].tokenName[1] = "Bleed"
-characterDatabase[i].tokenName[2] = "Shock"
-characterDatabase[i].tokenName[3] = "Slow"
-characterDatabase[i].tokenName[4] = "Stun"
-characterDatabase[i].infinityGem = true
-characterDatabase[i].healthyHP = 6
-characterDatabase[i].woundedHP = 5
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Thanos, The Mad Titan"
-characterDatabase[i].characterBase = medium
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1457428670514469993/BA6CA45C2D7E03F77F1540ABC53F089015060BFF/"
-characterDatabase[i].characterAsset3DRotate = 15
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/1192838843109483775/5587C7B521DD719F3D547D9849B1D1C403AA2F58/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/1192838843109484165/B69A24211744EE33249B59048B9BF700128D0691/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].tokenName[0] = "Slow"
-characterDatabase[i].infinityGem = true
-characterDatabase[i].healthyHP = 8
-characterDatabase[i].woundedHP = 9
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Thor, Prince of Asgard"
-characterDatabase[i].characterBase = small
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034085930813453370/54A4B33B59AD76AB669B1024ECC3D5DC8AAFD74A/"
-characterDatabase[i].characterAsset3DRotate = 0
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129708166388407/1505B4AC9DF5CE650C1F06BFA71224B4BD720A9F/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129708166389034/2958E2BBCF732420471203126A2B076AD1FBCD03/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].tokenName[0] = "Shock"
-characterDatabase[i].tokenName[1] = "Stagger"
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 6
-characterDatabase[i].woundedHP = 8
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Ultron"
-characterDatabase[i].characterBase = medium
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034086185604320460/746EC75CD4CB600331571700326ECED4962358C6/"
-characterDatabase[i].characterAsset3DRotate = 210
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129708166352619/C274B1A122707B1FA069725DC39FA01DA2CFE31B/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129708166353271/E2C4297054CE510BBC2575F3FF0C437C8CBC4D36/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].tokenName[0] = "Bleed"
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 6
-characterDatabase[i].woundedHP = 5
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Valkyrie"
-characterDatabase[i].characterBase = small
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034085930810395805/223E4D91CC3A7D607F17070C2AECA361342DD963/"
-characterDatabase[i].characterAsset3DRotate = 15
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129568344515991/4ECFECCC7F532521AF0F93A36F8EF88102FB1504/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129568344516406/ADA3FCDBF39F4E44EFC7898E139CB506E2F2F263/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].tokenName[0] = "Bleed"
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 6
-characterDatabase[i].woundedHP = 5
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Venom"
-characterDatabase[i].characterBase = medium
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034086185603028001/EFE3B0D02999477FAF455AF12AF7595FC6D55FC5/"
-characterDatabase[i].characterAsset3DRotate = 195
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129568344723484/1EA6B92540A5B08B0F5201224422044AB14C3F39/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129568344723860/90FDC45DB99C674A156FC3BC3CBEB716EA3E6B6F/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].tokenName[0] = "Bleed"
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 7
-characterDatabase[i].woundedHP = 6
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Vision"
-characterDatabase[i].characterBase = small
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1169195415761395607/634DA7B8C076BF77F27B439BF32E8246B7B89F7A/"
-characterDatabase[i].characterAsset3DRotate = 75
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129568344371153/C20319BE379696BC61C9C4793EB82A2AC806AF3D/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129568344373611/AFAED7897A2A538499F314E2FA3AAA8577B2A9E5/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].tokenName[0] = "Phase"
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 6
-characterDatabase[i].woundedHP = 6
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Wasp"
-characterDatabase[i].characterBase = small
-characterDatabase[i].characterAsset3D = ""
-characterDatabase[i].characterAsset3DTiny = ""
-characterDatabase[i].characterAsset3DRotate = 0
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/1192839008797621701/85A6B0FDA3AED728191B2999D97830F8B5157C87/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/1268274830565446198/FF547DE49501DB3951EA4D6A25D14A36607CD71F/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 5
-characterDatabase[i].woundedHP = 6
-
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Winter Soldier"
-characterDatabase[i].characterBase = small
-characterDatabase[i].characterAsset3D = "http://cloud-3.steamusercontent.com/ugc/1034086185602680172/0C807A3765EFBC30FC09C70C7DBCBE2F33BC525C/"
-characterDatabase[i].characterAsset3DRotate = 105
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/784129568344446756/F59B50B4B5661EA3AA298C0414D303BF0C0B160D/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/784129568344447269/41091B293A80CE4DC47271B5041FF71224258858/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].tokenName[0] = "Bleed"
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 5
-characterDatabase[i].woundedHP = 6
-
-i = i+1
-characterDatabase[i] = {}
-characterDatabase[i].characterName = "Wong"
-characterDatabase[i].characterBase = small
-characterDatabase[i].characterAsset3D = ""
-characterDatabase[i].characterAsset3DRotate = 0
-characterDatabase[i].characterAsset2DF = "http://cloud-3.steamusercontent.com/ugc/1268274830565414432/445A475AD171E756E8B03ABCB097E8D4A6899F54/"
-characterDatabase[i].characterAsset2DB = "http://cloud-3.steamusercontent.com/ugc/1268274830565443189/BE1B123CC97000B21618B6BAD8DAE14130D44107/"
-characterDatabase[i].tokenName = {}
-characterDatabase[i].tokenName[0] = "Bleed"
-characterDatabase[i].infinityGem = false
-characterDatabase[i].healthyHP = 5
-characterDatabase[i].woundedHP = 6
-
-
-
-
-
-
-
-
-
-smallT = 0.5
-largeT = 1
-thicT = 2
-
-smallM = "http://cloud-3.steamusercontent.com/ugc/1017195921940276281/DFBD6F3B85D31752E7E5266EAB49D16778F02BDA/"
-largeM = "http://cloud-3.steamusercontent.com/ugc/1017195921940355346/B89DC0907D04E4273E6C957FFA81E866A7EFCC0E/"
-
---OBJECTIVE TOKENS FIRST
-
-i = 0
-tokenDatabase = {}
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Citizen"
-tokenDatabase[i].tokenDescription = "Objective"
-tokenDatabase[i].tokenSize = largeT
-tokenDatabase[i].tokenMesh = largeM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941296855/0754B9CA77BBBE6B8DACADD1C015EB0202B9563E/"
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Gamma Shelter"
-tokenDatabase[i].tokenDescription = "Objective"
-tokenDatabase[i].tokenSize = largeT
-tokenDatabase[i].tokenMesh = largeM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941290061/90416D760764CF7951260C527D07D8EF3D80E711/"
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Priority"
-tokenDatabase[i].tokenDescription = ""
-tokenDatabase[i].tokenSize = largeT
-tokenDatabase[i].tokenMesh = largeM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941288582/C1499AD0056BAAE1E46D826B44D0870D623A8844/"
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Extremis Console"
-tokenDatabase[i].tokenDescription = "Objective"
-tokenDatabase[i].tokenSize = largeT
-tokenDatabase[i].tokenMesh = largeM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921940470361/1A1224D001EAEB147D588DF6A2454B8EECD4CFD0/"
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Serum Canister"
-tokenDatabase[i].tokenDescription = "Objective"
-tokenDatabase[i].tokenSize = largeT
-tokenDatabase[i].tokenMesh = largeM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921940474509/BB57B8CE019FF04FC7ACC523288C3DA93B8708C8/"
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Amplification Module 1"
-tokenDatabase[i].tokenDescription = "Objective"
-tokenDatabase[i].tokenSize = thicT
-tokenDatabase[i].tokenMesh = largeM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1481072688820603783/7630141D49B8C6CC11DF584B1C89F4BB85937EFF/"
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Amplification Module 2"
-tokenDatabase[i].tokenDescription = "Objective"
-tokenDatabase[i].tokenSize = thicT
-tokenDatabase[i].tokenMesh = largeM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1481072688820604451/78B080B5B1A7BAA4BFDC410FBC733B6A3A97FB26/"
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Amplification Module 3"
-tokenDatabase[i].tokenDescription = "Objective"
-tokenDatabase[i].tokenSize = thicT
-tokenDatabase[i].tokenMesh = largeM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1481072688820635213/828F024180226B8A254B6B5579CEC45E913BE974/"
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Nullifier Beam"
-tokenDatabase[i].tokenDescription = "Objective"
-tokenDatabase[i].tokenSize = thicT
-tokenDatabase[i].tokenMesh = largeM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1481072688820638225/FA71BE4DF8D2F49A74F5BB17EDD63700B5BC4113/"
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Supply Cashe"
-tokenDatabase[i].tokenDescription = "Objective"
-tokenDatabase[i].tokenSize = thicT
-tokenDatabase[i].tokenMesh = largeM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1481072688820639954/E7AB1084B581CB993CAC74569B17DCDDC57BE54E/"
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Antimatter Core"
-tokenDatabase[i].tokenDescription = "Objective"
-tokenDatabase[i].tokenSize = smallT
-tokenDatabase[i].tokenMesh = smallM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1481072688820636025/7B3452FE097F1A2721576D596B65493F322C72DA/"
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Suppression"
-tokenDatabase[i].tokenDescription = "Objective"
-tokenDatabase[i].tokenSize = smallT
-tokenDatabase[i].tokenMesh = smallM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1481072688820639091/4E9394D471F7C10BD58649B05CBFAFD4D4A81B7A/"
-
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Activated"
-tokenDatabase[i].tokenDescription = "Character has activated this round"
-tokenDatabase[i].tokenSize = smallT
-tokenDatabase[i].tokenMesh = smallM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941281151/92A430497EEB1DEC417275BC995E862722E242DD/"
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Dazed"
-tokenDatabase[i].tokenDescription = "Character has been dazed"
-tokenDatabase[i].tokenSize = smallT
-tokenDatabase[i].tokenMesh = smallM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941288062/BB613EFD6290ED99AAD77827FFC54F5761A3AD58/"
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Binary Form"
-tokenDatabase[i].tokenDescription = ""
-tokenDatabase[i].tokenSize = smallT
-tokenDatabase[i].tokenMesh = smallM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941282318/5CEA94C3025112943699710DD297FC3078E7226E/"
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Captured Soul"
-tokenDatabase[i].tokenDescription = ""
-tokenDatabase[i].tokenSize = smallT
-tokenDatabase[i].tokenMesh = smallM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941284706/06B1526E80518CAB3D6CB3E27E60BC535E7C8C88/"
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Kill Count"
-tokenDatabase[i].tokenDescription = ""
-tokenDatabase[i].tokenSize = smallT
-tokenDatabase[i].tokenMesh = smallM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941291832/0EB9E943F0DC00BD58E4889B6FB5D3CE98EA6F30/"
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Phase"
-tokenDatabase[i].tokenDescription = ""
-tokenDatabase[i].tokenSize = smallT
-tokenDatabase[i].tokenMesh = smallM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941293069/6755A7EB81029DA94E1F008223C8F083C47A92B5/"
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Vengeance"
-tokenDatabase[i].tokenDescription = ""
-tokenDatabase[i].tokenSize = smallT
-tokenDatabase[i].tokenMesh = smallM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1306556098151141918/06D78575B083534490D2990B49E81CCA5158A65E/"
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Winging It"
-tokenDatabase[i].tokenDescription = "After rolling attack dice, defense dice, or dodge dice, discard this token and reroll up to 2 dice. Can only be used once per dice roll."
-tokenDatabase[i].tokenSize = smallT
-tokenDatabase[i].tokenMesh = smallM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941302217/AD4E3B69677290F89E346221D4D8CB0869E872D8/"
-
-
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Bleed"
-tokenDatabase[i].tokenDescription = "The character suffer 1 damage at the end of each of its activations."
-tokenDatabase[i].tokenSize = smallT
-tokenDatabase[i].tokenMesh = smallM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941282641/8FDB19994142BD83D0642A7406639AAAD4CC28BF/"
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Hex"
-tokenDatabase[i].tokenDescription = "The character doesn't roll additional dice for its critical results during attack, defense, or dodge rolls."
-tokenDatabase[i].tokenSize = smallT
-tokenDatabase[i].tokenMesh = smallM
-tokenDatabase[i].tokenImage = ""
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Incinerate"
-tokenDatabase[i].tokenDescription = "The character removes one die from its defense rolls."
-tokenDatabase[i].tokenSize = smallT
-tokenDatabase[i].tokenMesh = smallM
-tokenDatabase[i].tokenImage = ""
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Judgment"
-tokenDatabase[i].tokenDescription = "The character does not gain power when suffering damage from enemy attacks."
-tokenDatabase[i].tokenSize = smallT
-tokenDatabase[i].tokenMesh = smallM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1306556098151142541/920BB85346140D70236DE4C39E949C3718941B77/"
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Poison"
-tokenDatabase[i].tokenDescription = "The character loses 1 power during the power phase."
-tokenDatabase[i].tokenSize = smallT
-tokenDatabase[i].tokenMesh = smallM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1044219885548746343/A62FC561582CBB146BBF986B767972F01BC51610/"
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Root"
-tokenDatabase[i].tokenDescription = "The character must spend 1 power before using active or reactive super power."
-tokenDatabase[i].tokenSize = smallT
-tokenDatabase[i].tokenMesh = smallM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941294146/A6050EF59172F6995378D40BC41438DD824F0531/"
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Shock"
-tokenDatabase[i].tokenDescription = "The character removes one die from its attack rolls."
-tokenDatabase[i].tokenSize = smallT
-tokenDatabase[i].tokenMesh = smallM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941295865/D05922002610169786C00AE3B0007BE5E6C54D04/"
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Slow"
-tokenDatabase[i].tokenDescription = "The character can only use the Short movement tool while advancing."
-tokenDatabase[i].tokenSize = smallT
-tokenDatabase[i].tokenMesh = smallM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941296350/928CAB2ADD1EBD3E4846262793C4A23016C9FC41/"
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Stun"
-tokenDatabase[i].tokenDescription = "If an effect would cause the character to gain more then 1 power, it gains only 1 power instead."
-tokenDatabase[i].tokenSize = smallT
-tokenDatabase[i].tokenMesh = smallM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941298718/00A1D69213C8659C5797A38AD36DADFD2DF45775/"
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Stagger"
-tokenDatabase[i].tokenDescription = "When the character activates its first action must be a Shake action. This Shake action must remove Stagger special condition."
-tokenDatabase[i].tokenSize = smallT
-tokenDatabase[i].tokenMesh = smallM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941297959/02A1A842C3874A486F0C13D10DF556D11B19814B/"
-
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Stagger"
-tokenDatabase[i].tokenDescription = "When the character activates its first action must be a Shake action. This Shake action must remove Stagger special condition."
-tokenDatabase[i].tokenSize = smallT
-tokenDatabase[i].tokenMesh = smallM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941297959/02A1A842C3874A486F0C13D10DF556D11B19814B/"
-
-
-
---**********KEEP AFFILIATION TOKENS LAST
---KEEP AVENGERS AS THE FIRST AFFILIATION
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Avengers"
-tokenDatabase[i].tokenDescription = "Affiliation"
-tokenDatabase[i].tokenSize = smallT
-tokenDatabase[i].tokenMesh = smallM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941281993/B7A024B7F8E2262E9A8D812075AC5597AC4678F2/"
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Black Order"
-tokenDatabase[i].tokenDescription = "Affiliation"
-tokenDatabase[i].tokenSize = smallT
-tokenDatabase[i].tokenMesh = smallM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1044219885548748825/8EF3E7B98703A054B40E572AED1F947839C82D96/"
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Guardians of the Galaxy"
-tokenDatabase[i].tokenDescription = "Affiliation"
-tokenDatabase[i].tokenSize = smallT
-tokenDatabase[i].tokenMesh = smallM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941290509/DB38B0FEF050F173AAA470452F804CD381F30D9F/"
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Wakanda"
-tokenDatabase[i].tokenDescription = "Affiliation"
-tokenDatabase[i].tokenSize = smallT
-tokenDatabase[i].tokenMesh = smallM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941301248/B555F75A79206E360EF742C311B1B5BB82C5DFEA/"
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Web-Warriors"
-tokenDatabase[i].tokenDescription = "Affiliation"
-tokenDatabase[i].tokenSize = smallT
-tokenDatabase[i].tokenMesh = smallM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941301694/74233FAA1DFE83B68779A47AF14596C16687F71B/"
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Asgard"
-tokenDatabase[i].tokenDescription = "Affiliation"
-tokenDatabase[i].tokenSize = smallT
-tokenDatabase[i].tokenMesh = smallM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941281664/F32D62D471D1BDDE1141CE6EB313CDFB7084021E/"
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Captain America Shield"
-tokenDatabase[i].tokenDescription = "Affiliation"
-tokenDatabase[i].tokenSize = smallT
-tokenDatabase[i].tokenMesh = smallM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941284361/E76DFE2FD9621E40A0CBFF68A9F3020ABB1211D7/"
-
-i = i+1
-tokenDatabase[i] = {}
-tokenDatabase[i].tokenName = "Cabal"
-tokenDatabase[i].tokenDescription = "Affiliation"
-tokenDatabase[i].tokenSize = smallT
-tokenDatabase[i].tokenMesh = smallM
-tokenDatabase[i].tokenImage = "http://cloud-3.steamusercontent.com/ugc/1017195921941283841/C7FBBB6EAB2C0B4E0E829D398D7D52BDC3A063C6/"
---MAKE SURE TO KEEP CABAL AS THE LAST TOKEN
---it worked!
+[
+    --Objective
+    [cName : " ", cBase : objective, objective : true, released : false,],
+    --CUSTOMS used for snapping tools
+    [cName : "Construct", customChar : "Construct", cBase : small, released : false,],
+    [cName : "Custom Small", customChar : "Custom Small", cBase : small, released : false,],
+    [cName : "Custom Medium", customChar : "Custom Medium", cBase : medium, released : false,],
+    [cName : "Custom Large", customChar : "Custom Large", cBase : large, released : false,],
+
+    --Custom Character used for character tray
+    [customChar : "Custom Character Card", cBase : small, cStamH : 99, cStamW : 99, def : [p : 0, e : 0, m : 0], released : false,
+        cModel : "", cFigA : "", cFigB : "", cToken : [], cGem : ["Power", "Time", "Soul", "Reality", "Mind", "Space"],
+        UIOffset : 200, UIName : "MysteryHero", UIurl : "http://cloud-3.steamusercontent.com/ugc/1684871056587561099/6A73576AC39BE2CDECA9CBAD39ECAEAAE91BD1D9/",],
+
+    --ULTIMATE ENCOUNTERS
+    [cName : "Ultron, Master of Metal",     cBase : medium,         threat :30, cStamH : 8, cStamW : 8, def : [p : 5, e : 4, m : 5], released : false,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1034086185604320460/746EC75CD4CB600331571700326ECED4962358C6/", cModelRot : 220,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/784129708166352619/C274B1A122707B1FA069725DC39FA01DA2CFE31B/", cFigB : "http://cloud-3.steamusercontent.com/ugc/784129708166353271/E2C4297054CE510BBC2575F3FF0C437C8CBC4D36/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1016065583083378290/D6182B3DA2EBADDAAFBE86C123C95C24FBC24083/",back : "http://cloud-3.steamusercontent.com/ugc/1016065583083378290/D6182B3DA2EBADDAAFBE86C123C95C24FBC24083/",],
+        cToken : [], cImmune : ["Bleed", "Poison", "Stagger", "Stun"], cGem : [],
+        UIOffset : 260, UIName : "UEUltron", UIurl : "http://cloud-3.steamusercontent.com/ugc/1684871056583583240/850C30CE6A3DBDB584A90236F446609B8F6E4C80/",],
+
+    [cName : "The Incredible Hulk",         cBase : large,          threat :34, cStamH : 8, cStamW : 8, def : [p : 4, e : 4, m : 4], released : false,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1034085930810381229/C659C0BFBC150D7940676FE7358F999F89B6D4F2/", cModelRot : 315,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/784129568344323914/E5D95807AD0FC3D8A3D7E74502ECD7BB4EDA42F8/", cFigB : "http://cloud-3.steamusercontent.com/ugc/784129568344324375/2A46BF7D91AD67AA22D0097DB46EE3232ADE1260/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1014939973733747303/9ABF82E07B07E71499F89D6F14827AAFEDCD7361/", back : "http://cloud-3.steamusercontent.com/ugc/1014939973733747303/9ABF82E07B07E71499F89D6F14827AAFEDCD7361/",],
+        cToken : [], cImmune : ["Poison", "Stagger", "Stun"], cGem : [], cPower : 2,
+        UIOffset : 300, UIName : "UEHulk", UIurl : "http://cloud-3.steamusercontent.com/ugc/1684871056583583576/BD357FB34D4A58175736353143294F56BD7899F1/",],
+
+    [cName : "Thanos, Chosen of Death",     cBase : medium,         threat :36, cStamH :12, cStamW :20, def : [p : 5, e : 5, m : 6], released : false,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1457428670514469993/BA6CA45C2D7E03F77F1540ABC53F089015060BFF/", cModelRot : 15,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1192838843109483775/5587C7B521DD719F3D547D9849B1D1C403AA2F58/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1192838843109484165/B69A24211744EE33249B59048B9BF700128D0691/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1481072688820469144/F9747D1A722407132DB02771472A9A5842909A45/", back : "http://cloud-3.steamusercontent.com/ugc/1481072688820469851/E71985EC509C946359170F5EC2C7B2ED708C15ED/",],
+        cToken : [], cImmune : ["Slow", "Stagger", "Stun"], cGem : [], cPower : 4,
+        UIOffset : 280, UIName : "UEThanos", UIurl : "http://cloud-3.steamusercontent.com/ugc/1684871056583582946/47EEDA42EC458D50C759761C4CD1B5ED5D18E0E2/",],
+
+    [cName : "Erik Killmonger Chosen of K'Liluna", cBase : small,   threat : 4, cStamH : 7, cStamW : 7, def : [p : 4, e : 4, m : 3], released : false,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1034085930813422424/66A2C351D2EDFBC2E252EC5AEA9A726AE044F4E6/", cModelRot : 30,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1016065725018531768/C87F6C2FAAE79A8CE12E37E098DE27FBAA3ED908/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1016065725018532679/172FAD28C816515CB7A036D22E499832F5BA6780/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1667979623995655633/85DC562FE8A0F532A7354CDE4E7F83DD994CDAEA/", back : "http://cloud-3.steamusercontent.com/ugc/1667979623995655814/A429AD6439EF91A5AB7A09C61A264122BF79486D/",],
+        cToken : ["Bleed"], cGem : [], transform : true,
+        UIOffset : 205, UIName : "UEKillmonger", UIurl : "http://cloud-3.steamusercontent.com/ugc/1684871056583583878/3F1F2F5D3117882143F912A7CFAC828592EA7BF7/",],
+
+    --Official Character Database
+    [cName : "Angela",                  cBase : medium,             threat : 5, cStamH : 6, cStamW : 7, def : [p : 4, e : 4, m : 4], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1660106490810605006/42C4808094D8DEEC24F9483A402C330B197F7648/", cModelRot : 0,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1639829753513343535/7836419E7202C97173C8876C24C26E5267BE08D0/", cFigB : "",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1683750656978956560/D4B9455104EA3675D2EAEA28B6EB640E930C1B3D/", back : "http://cloud-3.steamusercontent.com/ugc/1683750656978958958/822ACC30FBB3E84F8A9A9C2C3A9CA6D1E157B7B2/",],
+        cToken : [""], cGem : [], cPower : 1,
+        UIOffset : 250,     UIName : "Angela",              UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877516869/06ADE0A8B29D20974B58BF4B2D4AA65DC13B6E65/", ],
+
+    [cName : "Ant-Man",                 cBase : small,              threat : 3, cStamH : 5, cStamW : 5, def : [p : 3, e : 2, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1536247897961406693/C4EC45322C0285A98296C32EE1C035BC3A4BE5AE/",  cModelRot : 175,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1481072828755561691/261F4AE0D947C5A8FAB37668794EC30E3D1182C8/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1481072828755560837/9DF6C75576E34B36815DFECF477F46533E588D7E/",
+        --Transform assets for tiny ant man
+        transform : true,
+        cTModel : "http://cloud-3.steamusercontent.com/ugc/1536247897961408023/B93A08B0C4A259889AE625B3472A78C16EFF5C4B/",
+        cTFigA : "http://cloud-3.steamusercontent.com/ugc/1481072828755559074/1F7BB0EF630243334ED2F145CFE5BA2FFBFA5ACB/", cTFigB : "http://cloud-3.steamusercontent.com/ugc/1481072828755559319/B341617BBAC78BB62084C331790AE923C4D8AB5D/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1626318733886252935/D3997930A5F6EC7599875068F426A8B24B6F9B8E/", back : "http://cloud-3.steamusercontent.com/ugc/1626318733886260327/CE16606C82C364D3C84C97C17CF3971EE07338F2/" ],
+        cToken : ["Poison", "Stun"], cGem : [], stealth : true,
+        UIOffset : 150,     UIName : "AntMan",              UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877378331/1C1A8EE8476AD1484BD858EF16D5E9088E21A061/",],
+
+    [cName : "Baron Zemo",              cBase : small,              threat : 3, cStamH : 5, cStamW : 5, def : [p : 3, e : 3, m : 4], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1034086185600483542/8DA5018CAC030957F000DC2659FA1F88B6C79FFA/", cModelRot : 135,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/784129708166330356/762372051FD7EEC6D0BD4B85D5FAF18C443457A1/", cFigB : "http://cloud-3.steamusercontent.com/ugc/784129708166330888/7F454D28187151C4F27160DB4A86619BEB50745C/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1044218785742663154/9533C24EDD24BBD2BC4D76AA6AD4343952F4BEFB/", back : "http://cloud-3.steamusercontent.com/ugc/1044218785742663650/D10E89904C612634175B8A16FABC3C38BF7D5B78/",],
+        cToken : ["Bleed"], cGem : [],
+        UIOffset : 200,     UIName : "BaronZemo",           UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877378509/6195CEE0B9B5DD8D42E722F442A84550E4125487/",],
+
+    [cName : "Beast",                   cBase : medium,             threat : 3, cStamH : 6, cStamW : 5, def : [p : 4, e : 2, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1645466586270859022/A5AD328F607AFE9841C548339869A0DFE741B20E/",  cModelRot : 15,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1696129012875794353/3A6ACDFA1E6C4C487FD94629F34FA63EDE6F4C91/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1696129012875796114/BC8F5D9803E30D38A8525D4019A90ADC93EB3AE1/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1684871056582871585/DE384A65C29605FD9963A13304C0521574B0EF93/", back : "http://cloud-3.steamusercontent.com/ugc/1684871056582871898/2F99834EE02C1A08CB6AC5C3791C23AA53233221/", ],
+        cToken : ["Bleed"], cGem : [],
+        UIOffset : 250,     UIName : "Beast",               UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877517131/7120473274DDBBC25ED5A5CB4A994FA63F5EB6D3/",],
+
+    [cName : "Black Bolt",              cBase : small,              threat : 5, cStamH : 5, cStamW : 9, def : [p : 4, e : 4, m : 2], released : true,
+        cModel : "", cModelRot : 0,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1772698369946143807/3BBE52BAB2EC584DF47DF38EE88E5314C5FA65B4/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1772698369946144081/C444043A3221B88B69E13FBB543EA6C1B3A86694/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1776077281850189533/655BFF4C608B82108BEA7D374334DCD4C7DED707/",back : "http://cloud-3.steamusercontent.com/ugc/1776077281850189932/ED0573C21F1D65D18E524D7C04C792002DC4735E/",],
+        cToken : ["Stun", "Stagger"], cImmune : ["Poison"], cGem : [], leadership : "Inhumans",
+        UIOffset : 200,     UIName : "BlackBolt",           UIurl : "http://cloud-3.steamusercontent.com/ugc/1776077281850220921/E1226E98A65B5C714C97271098CC8C9816CC0D11/",],
+
+    [cName : "Black Dwarf",             cBase : large,              threat : 4, cStamH : 6, cStamW : 8, def : [p : 4, e : 3, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1034086808865894237/BE52551B339B9BDB1FD8BBDCB8235A5C3F37D8A0/", cModelRot : 285,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1044219484637941939/5D1B5407C9DFEFAD19184B5DBC910C462FE63F89/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1044219484637942490/B75EBCD5C5E8C174D05427AC7ACBCB33CAC91CBD/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1192838843109124195/5CE6B5D36766344678C2AF5D2F688102F4F8BD2A/", back : "http://cloud-3.steamusercontent.com/ugc/1192838843109167755/6E3ED044F913726E8C901B0A6BE20989DC99E7BE/",],
+        cToken : ["Stagger"], cGem : [],
+        UIOffset : 300,     UIName : "BlackDwarf",          UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877378954/00CB8C76A8640EE4D60B61DB4AA7A2BD2BF61549/",],
+
+    [cName : "Black Panther",           cBase : small,              threat : 4, cStamH : 6, cStamW : 6, def : [p : 4, e : 3, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1034086324426425054/ABA880CCFA77DF4868A2305A643D237E325D3368/",  cModelRot : 45,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/784129568344336709/776D431C75D4A52CA6011944B4B116BC73642FC8/", cFigB : "http://cloud-3.steamusercontent.com/ugc/784129568344337150/D3E73EE62B43AB97C8C80685F477FBDC7C948D7E/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1044218785742664555/AAD8B69A3BA9C2B29A13A5048712556F8C8239E1/", back : "http://cloud-3.steamusercontent.com/ugc/1044218785742665260/B9766D02C0FF10138D1CC2AEC991414BEFC56F61/",],
+        cToken : [], cGem : [], leadership : "Wakanda",
+        UIOffset : 150,     UIName : "BlackPanther",        UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877378693/E6B2E544C5995CAE620D6C1E3BDEA0548D80EE6E/",],
+
+    [cName : "Black Widow",             cBase : small,              threat : 2, cStamH : 4, cStamW : 4, def : [p : 3, e : 2, m : 4], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1034086185604627301/13BCE47E60A63973FA9B76C5E9B69286D835F182/", cModelRot : 90,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/784129708166519118/F4C2F7CF4813CDB23E3D9722D1A840E7566DB2C1/", cFigB : "http://cloud-3.steamusercontent.com/ugc/784129708166519718/9E1C02CBB757F6FD0A6952EDDCCEC956F607EFB3/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1293045997788750847/3C2D13C5CCCDB3F3D2924B5CF2CC57240B693482/", back : "http://cloud-3.steamusercontent.com/ugc/1293045997788751970/CE04BB78AF851AB362E44D93DF8A0918FDD3E4BC/",],
+        cToken : ["Stagger"], cGem : [], stealth : true,
+        UIOffset : 170,     UIName : "BlackWidow",          UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877517484/DA36463F322B965D97B43CC40D9EC306CFC39A3B/",],
+
+    [cName : "Black Widow, Agent of S.H.I.E.L.D.", cBase : small,   threat : 3, cStamH : 5, cStamW : 5, def : [p : 4, e : 3, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1282912103329225751/AECBBF961F98897E1E4A0B7D7339FB35A6658999/", cModelRot : 225,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1044219484637999524/0C2DD602F1E258F97325C7D9761BE4730967A297/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1044219484637999965/0D908B2836EF653EBAE75AAB8C4FAFCD3AA91406/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1331327250921547163/0BBE4B254D1C137E478E2051160952EC0A1B7E09/", back : "http://cloud-3.steamusercontent.com/ugc/1331327250921547689/C74F0F4882E058EB48F08B54C79DB619FF625C97/",],
+        cToken : ["Poison"], cGem : [], stealth : true,
+        UIOffset : 215,     UIName : "AgentWidow",          UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877516631/C62E7E6C83E1F35B266B1815DE8D30F55FF9C790/",],
+
+    [cName : "Bullseye",                cBase : small,              threat : 3, cStamH : 5, cStamW : 5, def : [p : 3, e : 3, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1673610155140006606/5004AEAE97FA6284A50B4F75F1ADDEFAF321F3D6/", cModelRot : 355,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1559891726089337674/C00F79425AD9D3AEADF984E3A27191B37BCC2DFE/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1559891726089337943/1020BA1C1F789BBE825E59FDFBDC01AF908A3DFB/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1667979623995891165/398DA3391A41305F5EA59B7BBCE800F8CE9129AC/", back : "http://cloud-3.steamusercontent.com/ugc/1667979623995891332/9A1F27718F39EBEFA653570E4D682782B2D4FFDE/",],
+        cToken : ["Bleed"], cGem : [],
+        UIOffset : 200,     UIName : "Bullseye",            UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877517809/072E11CC46BE55029EAF3AEF2E80B1749568BF54/",],
+
+    [cName : "Captain America",         cBase : small,              threat : 4, cStamH : 5, cStamW : 6, def : [p : 4, e : 4, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1034086324430402900/AA3B60C44B1625C9680551ECCBBFAE53C5D01F36/", cModelRot : 195,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/784129708166443218/63B6C9DC1B30F0551297E7C3C981770E13E2E396/", cFigB : "http://cloud-3.steamusercontent.com/ugc/784129708166443788/D0373ADA1F521FDFC7248564225C48D6C2C62F0C/",
+        cCard : [face : ["http://cloud-3.steamusercontent.com/ugc/1044218785742668271/ACB379E330E6E61B54598B749A8D8207339AD52A/", "http://cloud-3.steamusercontent.com/ugc/1044218785742670153/725B06F65723F81073DA5DE5BD206474802D8D9C/",],
+                 back : ["http://cloud-3.steamusercontent.com/ugc/1044218785742669345/C3826AC3A9F353494F1B3F2A8B0A8491ACCEBD2B/", "http://cloud-3.steamusercontent.com/ugc/1044218785742671078/B192BF69EEA1A544EF4B5AF711BFE44C58248781/",],],
+        cToken : [], cGem : [], leadership : "Avengers",
+        UIOffset : 195,     UIName : "CaptainAmerica",      UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877518112/981248F42EA824AFE9AD57EBD572E2D2589AD1B2/",],
+
+    [cName : "Captain Marvel",          cBase : small,              threat : 4, cStamH : 6, cStamW : 6, def : [p : 3, e : 4, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1034085930818332675/EFA27C0B561A484E157FC5C5AF16C58EB78B2C6E/", cModelRot : 0,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/784129708166610601/23C3EEBEF52BA69ED90BD33C5B41BEE51E31B168/", cFigB : "http://cloud-3.steamusercontent.com/ugc/784129708166611186/7841BFE50EB5379293A12E1A4FB924953C5E8612/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1044218785742672048/8E5C1013646839827476A631AD70D439794C667C/", back : "http://cloud-3.steamusercontent.com/ugc/1044218785742673040/3616337AAFE07A237A0A075C7DCD5E30DED65419/",],
+        cToken : ["Binary Form", "Stagger"], cImmune : ["Poison"], cGem : [],
+        UIOffset : 250,     UIName : "CaptainMarvel", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877518526/3784CB8814661CA771BD37E3CEFE6F2884820D10/",],
+
+    [cName : "Corvus Glaive",           cBase : medium,             threat : 4, cStamH : 6, cStamW : 6, def : [p : 3, e : 3, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1169194945073690917/180FCA38C6D9F0C97430880E9C4BEA2A96C65627/", cModelRot : 255,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1044219484637927708/952EED00AE6295C33809A04D31473D530F0C8AA8/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1044219484637928390/EF064BE9082F3071F6391C8DBE79B2D1229D3D8C/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1044219885549025968/87E08CAFDC1F23A2870A104783AA9E0B991C85C4/", back : "http://cloud-3.steamusercontent.com/ugc/1044219885549047745/0A39B71028F5EACD0FA233450CE8EDBB5439E74F/",],
+        cToken : [], cGem : ["Reality", "Time"],
+        UIOffset : 240,     UIName : "CorvusGlaive",        UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877518831/BCE125888E9F1E320DD3DCE3CA85A2E76787A567/",],
+
+    [cName : "Crossbones",              cBase : small,              threat : 3, cStamH : 6, cStamW : 5, def : [p : 4, e : 2, m : 2], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1034086185603883443/176FDF94D8FB3912F6948F08EDF63C473E2EF7C1/", cModelRot : 255,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/784129708166562834/0995F9FED35517B5077F3D248BE8CB1041FF578F/", cFigB : "http://cloud-3.steamusercontent.com/ugc/784129708166563495/16E6C72F2DFFECD2912C461B88DF992C990B60FC/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1044218785742674172/86483F811CD6C1E905791FD70A8C8E8DA8025B29/", back : "http://cloud-3.steamusercontent.com/ugc/1044218785742675076/ECB46BF0D6E2EA6B9BE06C08B18867D5C61E44F9/",],
+        cToken : [], cGem : [],
+        UIOffset : 180, UIName : "Crossbones", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877519124/58C1C011C96EB5FF0EF615F1E300C40DB7066321/",],
+
+    [cName : "Crystal",                 cBase : small,              threat : 3, cStamH : 5, cStamW : 5, def : [p : 3, e : 3, m : 3], released : true,
+        cModel : "",  cModelRot : 0,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1772698369946144593/361C8B43C65BA93424340089575C6ECE43838A02/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1772698369946144885/11601EFA3C3AD71AA3F568564CDC47F81B0D82FA/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1776077281850190414/107778E2861B06B0B7E4219415A94BD1E1121AFB/", back : "http://cloud-3.steamusercontent.com/ugc/1776077281850190822/8D85A3A820E555F4235A29340642EC6EC5366D10/",],
+        cToken : ["Stun", "Slow", "Incinerate"], cImmune : ["Poison"], cGem : [],
+        UIOffset : 200, UIName : "Crystal", UIurl : "http://cloud-3.steamusercontent.com/ugc/1776077281850222447/0FEF2DAEAD240B5A59B3342404DB07AF4EEF3C45/",],
+
+    [cName : "Cyclops",                 cBase : small,              threat : 4, cStamH : 6, cStamW : 6, def : [p : 4, e : 3, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1645465827543071480/5556FA1A2C93D926174FE77B4AB10FB327A4D6F4/", cModelRot : 345,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1696128786315364384/29CC4086BA2EF14132E49CF3E0E085787FE4DB6D/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1696128786315364587/CDD2F56C0064F6C19F99D7BE9EB4214BA5A7BC16/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1684871056582872205/B804DC4C72B6027C58334B355EB605BDD569F4D7/", back : "http://cloud-3.steamusercontent.com/ugc/1684871056582872478/57E427B15829AAC32664E1C742489E16DB807C61/",],
+        cToken : [], cGem : [], leadership : "Uncanny XMen",
+        UIOffset : 195, UIName : "Cyclops", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877519800/1EC586842B4ED0DABBFB114412D55BAECB5707AF/",],
+
+    [cName : "Daredevil",               cBase : small,              threat : 4, cStamH : 5, cStamW : 6, def : [p : 3, e : 3, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1673610205409722820/3EC6835F5A12EEFBC43767FAE706E29FE39034AA/", cModelRot : 0,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1559891726089336516/8B73F99B7D7B848D6F90B5002C79ED1E3B6E9043/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1559891726089336731/FAA4241DEFEAF07E1E0DDF7D2693D1517E6E8725/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1669110499236171554/170402E4646AAE891B39E5F0293293F51736ACC0/", back : "http://cloud-3.steamusercontent.com/ugc/1669110499236171709/7A8B9AE1A74DC8CDA97BF43ACCAB45F30DE04F60/",],
+        cToken : ["Stun"], cGem : [],
+        UIOffset : 200, UIName : "Daredevil", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877520091/43E0BBE739080A10AD49898594BBE52334CEE980/",],
+
+    [cName : "Deadpool",                cBase : small,              threat : 5, cStamH :10, cStamW :10, def : [p : 5, e : 5, m : 5], released : false,
+        cModel : "",  cModelRot : 0,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1773825158299190804/886404F11769664A0045681A8F7190749A2A4D69/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1773825158299191049/7514813E0DB414BF393469A148AC2669D0DA35B8/",
+        cCard : [face : "", back : "",],
+        cToken : [], cGem : [],
+        UIOffset : 200, --[[UIName : "Daredevil", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877520091/43E0BBE739080A10AD49898594BBE52334CEE980/",]]],
+
+    [cName : "Doctor Octopus",          cBase : medium,             threat : 3, cStamH : 5, cStamW : 6, def : [p : 4, e : 3, m : 4], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1034086185603342117/B086DF48DDE7946D3087288019AF3999E9C66F94/", cModelRot : 270,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/784129708166360409/103D3D5CF77A30E195749AAA1127FAFB7EAC4520/", cFigB : "http://cloud-3.steamusercontent.com/ugc/784129708166361100/A481160D827FD5C1BFC748C130CBED1CFF8C4A94/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1044218785742681578/4F62DCA92E1A0BFC1E58158935D958CA2CBF08CC/", back : "http://cloud-3.steamusercontent.com/ugc/1044218785742682430/3D037440005B1D2063061A19EC7B08B5A63CFF0A/",],
+        cToken : [], cGem : [],
+        UIOffset : 240,UIName : "DoctorOctopus", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877520432/CAB6143FFF6B314911EDD1E2804C9FB5B3D9D47C/",],
+
+    [cName : "Doctor Strange",          cBase : medium,             threat : 5, cStamH : 6, cStamW : 6, def : [p : 3, e : 4, m : 4], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1536247897969759284/DC7DB7889F47CE6C12C5F85C2294208243E21E63/", cModelRot : 105,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1484450935820444889/D4E411FF455A7075F035E760426A49746627ABC9/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1484450935820445157/0918B3433FE5FFFCEC1EAB7A8679F3B4CF49955E/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1626318733886167133/A1FBF99BFEEB7232B78E0BD2FE309445385DD608/", back : "http://cloud-3.steamusercontent.com/ugc/1626318733886176094/BDF31A3F12F0E8FE60C2CBF22FF7947115BC616B/",],
+        cToken : ["Hex", "Stagger"], cGem : ["Soul", "Time"],leadership : "Defenders",
+        UIOffset : 200, UIName : "DoctorStrange", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877520712/ADF1EBD05D387621EA6708772032E9246BB49D90/",],
+
+    [cName : "Drax the Destroyer",      cBase : small,              threat : 3, cStamH : 6, cStamW : 6, def : [p : 3, e : 3, m : 2], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1282912103329226775/FC92FDFAEC5909DF28D4AB34896069A83D999978/",  cModelRot : 180,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1044219484637954521/6711327178FC68238ED7F180FE25B4E8DF9B16EB/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1044219484637947407/8FDE7EF80026FFA7A0FE3CB7BEF5F241BD8B1FB3/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1331327250921532138/149ACBA8DBFFD99A755360B79606907B093D1207/",back : "http://cloud-3.steamusercontent.com/ugc/1331327250921532712/DCE0C3EB4E1337E7580C0631B79BF4EC0553BA2E/",],
+        cToken : ["Vengeance", "Bleed", "Stun"], cGem : [],
+        UIOffset : 200, UIName : "Drax", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877520989/FF16506EC4194880AA34327EBCE6F179A79F8354/",],
+
+    [cName : "Ebony Maw",               cBase : small,              threat : 5, cStamH : 7, cStamW : 4, def : [p : 2, e : 2, m : 6], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1169194945073880562/C4BC48880AF562A3D7D19C93438029528906554D/", cModelRot : 225,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1044219484637958764/2FC9BB79269B6F57EFD14C84DDA274A892DFA764/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1044219484637960073/B224CBD12260CFE83364D119A4D00B330B6A28C0/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1192838843109125920/21261AE6EAB7913CF2D884A03AE9502DD246159F/", back : "http://cloud-3.steamusercontent.com/ugc/1192838843109126525/C1B66D360BFB0CEF9CED8CBEB5C30547406467C9/",],
+        cToken : [], cGem : ["Mind", "Space"], cPower : 2,
+        UIOffset : 290, UIName : "EbonyMaw", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877521279/70FC378F09CD139EB4D777CAE085F89A1596231C/",],
+
+    [cName : "Enchantress",             cBase : small,              threat : 4, cStamH : 6, cStamW : 5, def : [p : 2, e : 2, m : 5], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1660106490810607857/E9CB3DF4C544925BAAB8D49460B9AA828E6B27DA/", cModelRot : 0,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1639829753513342964/93C4EA13FD695088A20B94C8C0F6FEAF00538408/", cFigB : "",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1683750364035701278/0A6CF09405C08E44D288E13DC571BDFEC014E30B/", back : "http://cloud-3.steamusercontent.com/ugc/1683750364035702657/E0A8DFA32A933B38B279F26B944A87018B7F84A7/",],
+        cToken : ["Slow", "Stun", "Stagger"], cGem : [], cPower : 1,
+        UIOffset : 260, UIName : "Enchantress", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877521578/FCC6DCA980BEC79D03DCA0F9F86A5F4650757C6F/",],
+
+    [cName : "Gamora",                  cBase : small,              threat : 4, cStamH : 5, cStamW : 5, def : [p : 3, e : 3, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1169194945073103496/1618F7B9CEA92318DADFC807D2AC9AB2F081E82F/", cModelRot : 315,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1044219484637962251/C3427AFEB7B3B7A09F456444139EA5CA226EAF0B/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1044219484637962856/AD2E91438B9958622137A7809FCF294F40152A17/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1044219885549138174/AE82A8BB08F0850EF7DF9365B91BF7DE6393349A/", back : "http://cloud-3.steamusercontent.com/ugc/1044219885549138890/49F425CCDF09DF98D9FCFFD61A1B19CEDFD77120/",],
+        cToken : ["Bleed"], cGem : [],
+        UIOffset : 230, UIName : "Gamora", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877521824/F12283ADC64136D3A0B857DC6FE2B115B3A73E7C/",],
+
+    [cName : "Ghost Rider",             cBase : large,              threat : 5, cStamH : 7, cStamW : 6, def : [p : 3, e : 4, m : 4], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1616186515197604035/B66108FD53EA7660A3A39A1181177216A153F4A3/", cModelRot : 0,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1504719690103100228/82419F8E6D82F6947D71CE93187ABBC14C4E4EC2/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1504719690103100506/6EDAC443B5218BACB6CDA32F0C5ADCC1F226E33B/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1626318733886176685/86113238E252265EE8C5461EF5A593F86447AD2E/",back : "http://cloud-3.steamusercontent.com/ugc/1626318733886177227/D349C13B2036858342901704FD9461FA2916998B/",],
+        cToken : ["Hex", "Incinerate"], cGem : [],
+        UIOffset : 200, UIName : "GhostRider", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877522106/914B6CA657326544F5A18AFF721D6197BDA4C694/",],
+
+    [cName : "Ghost-Spider",            cBase : small,              threat : 3, cStamH : 5, cStamW : 5, def : [p : 3, e : 3, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1477697648590055067/D871C8023EED436221DC0BAF7422D8E9D8B0ED00/", cModelRot : 345,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1481072568114736834/8E37E568CD76DD870FB0F5297BE46228DAE65E79/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1481072568114737042/1F26AE623277530A62E02AC869E4043CB5A82051/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1487830416937599208/5AE68F9863817C0B7E1F288813043452AC354197/",back : "http://cloud-3.steamusercontent.com/ugc/1487830416937600279/91EA8B19B41027B008809E1DE260314CEB8321D4/",],
+        cToken : [], cGem : [],
+        UIOffset : 200,UIName : "GhostSpider", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877522484/4FAC226BC96D02ED72D8A149CC3E5767B72DC539/",],
+
+    [cName : "Green Goblin", cBase : medium, threat : 4, cStamH : 7, cStamW : 5, def : [p : 4, e : 3, m : 3], defInj : [p : 3, e : 3, m : 5], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1477697648590056254/3F83D5F3DEBBB82B320E370034AB07B14727692E/", cModelRot : 165,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1481072828755416588/E4374314B4460D95F01462DFF5E08A2BCDF9B0B0/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1481072828755416830/54360090FA60D1882F49F2E02ABCA11A916A5539/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1487830416937602705/9FC324AF2F0216E26B758473FB6482D6167601B1/", back : "http://cloud-3.steamusercontent.com/ugc/1487830416937603231/E71207F701E69919E61EAC869532A943D09E8BC3/",],
+        cToken : ["Bleed", "Poison", "Incinerate"], cGem : [], leadership : "Spider Foes",
+        UIOffset : 260, UIName : "GreenGoblin", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877522779/3DCD03A7FBA997C8A4E0E328A019B4319A221CA8/",],
+
+    [cName : "Groot",                   cBase : medium,         threat : 3, cStamH : 7, cStamW : 7, def : [p : 4, e : 2, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1034086324429675093/C913F1CBDEED2BB3D95BDA3483D26600FE36380C/", cModelRot : 300,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/784129568344644188/8C9CDDB9018C5191943B8052D2AC780046E1C324/", cFigB : "http://cloud-3.steamusercontent.com/ugc/784129568344644602/F582E706E8B99597E24DAC5DFBE5C193A74FA117/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1044218785742683390/15A0C6C4A2D4FB4F9B5764A801C2CB8521792266/", back : "http://cloud-3.steamusercontent.com/ugc/1044218785742684043/D1AAC9B2580C3F360701C83413B4C72C457F4E18/",],
+        cToken : ["Root", "Stagger"], cGem : [],
+        UIOffset : 290, UIName : "Groot", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877523062/6AACA92A39A930E19C0D7152EA78E317BAF5CE79/",],
+
+    [cName : "Hawkeye",                 cBase : small,          threat : 3, cStamH : 4, cStamW : 5, def : [p : 4, e : 2, m : 2], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1282912103329228022/958F19A25D4B99985E92FD42E25AE3C3D9C4F022/", cModelRot : 90,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1044219484637964039/51E41E016DD4D47E4B46CD914948E049C625EE79/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1044219484637964698/926A7193358A5523CE7AC968517380751644E3EA/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1331327250921537788/1B0C2651F79C5B806C175C5C669D6287567B518C/", back : "http://cloud-3.steamusercontent.com/ugc/1331327250921538369/1EF69FA97B8E58A9252DFF7D90BAAD0982E9F488/",],
+        cToken : ["Bleed", "Shock", "Slow", "Poison"], cGem : [],
+        UIOffset : 190, UIName : "Hawkeye", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877523408/814E201BBEC8D9415D0B5C48F08D3977736A6DBD/",],
+
+    [cName : "Hela, Queen of Hel",      cBase : medium,         threat : 4, cStamH : 6, cStamW : 4, def : [p : 4, e : 4, m : 4], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1034085930816293280/56F6A115AD5A6AE146D71F0CE0074931102E8567/",  cModelRot : 90,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/784129568344587276/3EE0FBFC162E7D8836F921E135858B36A8B3A221/", cFigB : "http://cloud-3.steamusercontent.com/ugc/784129568344587907/F1C4B9EAEC07CF0611AEB5F9F4B03963EA82974E/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1044218785742685145/112A106C5F85396C3119A2C0DB5DEC83E5E21435/", back : "http://cloud-3.steamusercontent.com/ugc/1044218785742685807/1F83A8B34FD3F10AAC6EAB977959A0C30271498D/",],
+        cToken : ["Captured Soul", "Bleed"], cGem : [], cPower : 1,
+        UIOffset : 200, UIName : "Hela", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877523657/ACC318ACBDCB20181EA0AB4D4AD941B27241B68B/",],
+
+    [cName : "Hulk",                    cBase : large,          threat : 6, cStamH : 20, cStamW : 0, def : [p : 2, e : 2, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1034085930810381229/C659C0BFBC150D7940676FE7358F999F89B6D4F2/", cModelRot : 315,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/784129568344323914/E5D95807AD0FC3D8A3D7E74502ECD7BB4EDA42F8/", cFigB : "http://cloud-3.steamusercontent.com/ugc/784129568344324375/2A46BF7D91AD67AA22D0097DB46EE3232ADE1260/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1044218785742752206/6015D9E0B67B3B7B664DF0A18849B3B79100F9EF/", back : "http://cloud-3.steamusercontent.com/ugc/1044218785742753164/6015D9E0B67B3B7B664DF0A18849B3B79100F9EF/",],
+        cToken : ["Stagger"], cImmune : ["Poison"], cGem : [], cPower : 2,
+        UIOffset : 300,UIName : "Hulk", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877523961/A27F5FFE50F5DC5060DDAD405FC3AA334BC6A50A/",],
+
+    [cName : "Iron Man",                cBase : small,          threat : 3, cStamH : 5, cStamW : 5, def : [p : 4, e : 3, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1034085930811451349/0E6A50A2D4B43E43B50CBF3C88705B30BF14D0F4/", cModelRot : 105,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/784129708166482941/58D5772414B55D662D9E63E8515CBB9770DE497D/", cFigB : "http://cloud-3.steamusercontent.com/ugc/784129708166483668/71A656FD13B794B4A6720A384EFA12137A216E79/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1044218785742759073/229A59A2E87E2F743C3BE2D038838051FC377EDE/", back : "http://cloud-3.steamusercontent.com/ugc/1044218785742769630/83A2D9E6259F3970B5BDD35B8DFFB45582916532/",],
+        cToken : [], cGem : [],
+        UIOffset : 200, UIName : "Ironman", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877524223/ADA0A36B280ED19FF8CBB7409E623A6CFB0F367F/",],
+
+    [cName : "Killmonger",              cBase : small,          threat : 4, cStamH : 6, cStamW : 5, def : [p : 4, e : 3, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1034085930813422424/66A2C351D2EDFBC2E252EC5AEA9A726AE044F4E6/", cModelRot : 30,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1016065725018531768/C87F6C2FAAE79A8CE12E37E098DE27FBAA3ED908/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1016065725018532679/172FAD28C816515CB7A036D22E499832F5BA6780/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1044218785742770670/68717296FBA629429116742CC3549F0C526636E5/", back : "http://cloud-3.steamusercontent.com/ugc/1044218785742771523/27378CA80ACC97D12B3D2B94210B9B76E75BFAA1/",],
+        cToken : ["Kill Count", "Stagger"], cGem : [],
+        UIOffset : 205, UIName : "Killmonger", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877524767/C257651A5E4333544C31AB645FD8A79D6B58B4F3/",],
+
+    [cName : "Kingpin",                 cBase : medium,         threat : 4, cStamH : 7, cStamW : 7, def : [p : 4, e : 3, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1646587921385904963/2254DF83C518A4CC3F6FC8631A1A73552846A053/", cModelRot : 0,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1639829986619388800/2DF06C6277A3E0F611232DA9138426694C2EEE29/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1639829986619389316/F4CAA88F1C11DC9998564981F4735F8D5401B72E/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1667979623995892438/A45602CBE42C1D502D1E5000FC18A9EC2F5B53EB/", back : "http://cloud-3.steamusercontent.com/ugc/1667979623995893007/E79BA98F47BCD33D09BCC249A0783B97BA1269CF/",],
+        cToken : ["Stun", "Stagger"], cGem : [], leadership : "Criminal Syndicate",
+        UIOffset : 235, UIName : "Kingpin", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877602772/209BCDF4588586E829DC53DF2257DD50C132429B/",],
+
+    [cName : "Lockjaw",                 cBase : medium,         threat : 3, cStamH : 6, cStamW : 5, def : [p : 3, e : 3, m : 3], released : true,
+        cModel : "", cModelRot : 0,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1772698369946145349/1CB2C7F46805A3128AA10CC5DBF3CA752A454149/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1772698369946145626/CAFC999703549CC630791D913EED8B63595FAAEE/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1776077281850191180/B47DDC82D5A3E79D7B3764517FA3DAAB60807FA7/", back : "http://cloud-3.steamusercontent.com/ugc/1776077281850191585/C8BC2206A28E20154748A48453252608C5D1AB68/",],
+        cToken : ["Bleed", "InterDimensional Bloodhound"], cImmune : ["Poison"], cGem : [],
+        UIOffset : 200, UIName : "Lockjaw", UIurl : "http://cloud-3.steamusercontent.com/ugc/1776077281850223251/2CB4B092727B8F580DBBC713F57C6D82FE46F0FB/",],
+
+    [cName : "Loki, God of Mischief",   cBase : small,          threat : 4, cStamH : 5, cStamW : 5, def : [p : 3, e : 3, m : 4], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1034085930815374206/D889FE6253D4834EC4ABA765BD1B5FC8C8C47B71/",  cModelRot : 255,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/784129568344565819/380954BDA979E5573DF53D2694447AE150F43F88/", cFigB : "http://cloud-3.steamusercontent.com/ugc/784129568344566374/1EC9CCDC16F171904C736629726E575E3ED985AD/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1044218785742772356/9AD2942852D75D6FF0E2CE2939EB2A05FCAEE520/", back : "http://cloud-3.steamusercontent.com/ugc/1044218785742773252/DECA721DD027246DC87E2E3924F5A742737425B0/",],
+        cToken : ["Slow"], cGem : ["Mind", "Space"], cPower : 1,
+        UIOffset : 205, UIName : "Loki", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877525134/7E888FEDA40311658DEEE33CF1263834B5C2EE25/",],
+
+    [cName : "Magneto",                 cBase : medium,         threat : 6, cStamH : 6, cStamW : 8, def : [p : 3, e : 3, m : 6], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1645465827542241576/36A29C3E695B8F2C3541C63C7243FD19CA60DBE1/", cModelRot : 0,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1697254053188633070/5F5990416D96C615A1AD826BF8B8F5A201ACA28B/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1697254053188633230/0194D644A43C02875401257793F66F913E8E5C3C/",
+        construct : ["http://cloud-3.steamusercontent.com/ugc/1645465827542242879/F428BD1057699122256340C9DC9BE03FB299B37D/", "http://cloud-3.steamusercontent.com/ugc/1645465827542243394/52DB525F839B55CC810ED19075FBE32AFC60137C/"],
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1684871056582872808/1BB74186020306F0C504D20D4993E7C0DD13E0C0/", back : "http://cloud-3.steamusercontent.com/ugc/1684871056582873130/00A9020E614CF817F9DE851C7D96D892500780AC/",],
+        cToken : ["Stun"], cGem : [], leadership : "Brotherhood of Mutants",
+        UIOffset : 300, UIName : "Magneto", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877525464/8B6C8F29B905C86959673DA3A0916E5DD86ECB9D/",],
+
+    [cName : "Medusa",                  cBase : small,          threat : 4, cStamH : 6, cStamW : 6, def : [p : 3, e : 3, m : 3], released : true,
+        cModel : "", cModelRot : 0,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1772698369946146163/FE2C3B95BF06CDB3C116FF9917119F17294F9388/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1772698369946146535/6157F8FDB138BD6CA8FC72E7AE99B0B5AB5237C2/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1776077281850192126/2AF54A56EC6421AFB6918113156925533C27A5BA/", back : "http://cloud-3.steamusercontent.com/ugc/1776077281850192467/705F15BF44712310B8811AA0BDA1FDB6018D8E4D/",],
+        cToken : ["Bleed"], cImmune : ["Poison"], cGem : [],
+        UIOffset : 200, UIName : "Medusa", UIurl : "http://cloud-3.steamusercontent.com/ugc/1776077281850222875/D8CD2E9FCF4267B8A15145AE55D41B8094E7F10F/",],
+
+    [cName : "Mystique",                cBase : small,          threat : 3, cStamH : 5, cStamW : 5, def : [p : 3, e : 3, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1645466345444795039/EE98F9C94014D90B27AE1F1A2925E2D5E1184142/", cModelRot : 0,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1696128786319169642/164C34F0B887D02EFF0AE96C10B235A323197BA2/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1696128786319169828/B0D919D1C4BAA4B6285B9BF3E0D3EE9CB1BF788A/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1684871056582873518/77D01819FE95A2491C3BB4CD22AD963D10CA9C8D/", back : "http://cloud-3.steamusercontent.com/ugc/1684871056582873804/CC7B65554ABCA79890A80BA501ABD3BF299C2D05/",],
+        cToken : ["Stun"], cGem : [], stealth : true, leadership : "Brotherhood of Mutants",
+        UIOffset : 200,UIName : "Mystique", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877526340/0B601CF90509B1643F5548837CF022C77930501B/",],
+
+    [cName : "M.O.D.O.K.",              cBase : large,          threat : 5, cStamH : 10, cStamW : 4, def : [p : 2, e : 3, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1034085930815683534/54CAEBDE152B0A1F93DB0CC59F7957EF68ABA6B5/", cModelRot : 240,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/784129568344600146/4AB2ADB8A99FF039AAD99AFB0D2F4F15E35B3D11/", cFigB : "http://cloud-3.steamusercontent.com/ugc/784129568344600696/44C2A8F83C676A56971F9CB01272527680E7472B/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1044218785742774181/87898CAD23F66A55CB1543B0C658F174D947EB33/", back : "http://cloud-3.steamusercontent.com/ugc/1044218785742774969/C94E3B0B677D865B5DA3044239C5818FB7F4C716/",],
+        cToken : ["Bleed"], cGem : [],
+        UIOffset : 300, UIName : "Modok", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877526042/ACE9BC67A6CFCB2C3A0A01BCE81411222638B744/",],
+
+    [cName : "Nebula",                  cBase : small,          threat : 2, cStamH : 4, cStamW : 5, def : [p : 3, e : 3, m : 2], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1169194945073198778/BABB1141778C8A1C8D956E848F080C3BD7FA3A70/", cModelRot : 60,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1044219484637966797/543DE264F1052B55D9B5473BC9A02771F6E042D3/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1044219484637967580/B21AAB782F413AE126AA233A50CAA3E139FF7874/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1044219885549142349/E86CD65328B1F360F97F4DA7F3A7B0950B66CB09/", back : "http://cloud-3.steamusercontent.com/ugc/1044219885549143117/6FEB346B46275EC4D1E23A92A4602E864F1DCFA2/",],
+        cToken : ["Shock", "Stun"], cImmune : ["Bleed", "Poison", "Stun"], cGem : [],
+        UIOffset : 200,UIName : "Nebula", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877526742/6E9FA5A755E5377E67C2C44A6DD7B4F3B7C2C234/",],
+
+    [cName : "Okoye",                   cBase : small,          threat : 2, cStamH : 4, cStamW : 4, def : [p : 3, e : 3, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1169195415761396597/8E57D0EDB2D167C5075BE137A883ED01CDF84E80/", cModelRot : 105,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/784129568344464046/C0D7A9232F4F66106C1B1AE2902FE88D7F7EE42B/", cFigB : "http://cloud-3.steamusercontent.com/ugc/784129568344464465/BA7B562DD8AA74A445A3467DFBD1E4AC474E89E2/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1044218785742775941/A401180EE712FBA43824BC7C10C351A9DA85766C/", back : "http://cloud-3.steamusercontent.com/ugc/1044218785742777217/6CBD9758B05A6691B0997DCBA2DA5280067BD2D2/",],
+        cToken : [], cGem : [],
+        UIOffset : 190, UIName : "Okoye", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877527161/0AEE93006FEC6D5DB5E9F47C0CED9BF39CB30737/",],
+
+    [cName : "Proxima Midnight",        cBase : small,          threat : 3, cStamH : 5, cStamW : 5, def : [p : 3, e : 3, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1169194945073308758/5295C819AEFC890EE4E72C8D332353A40EECF137/", cModelRot : 20,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1044219484637969344/D6592761664A2910030D5F7459D82AC04D46B631/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1044219484637970130/1E3477EC7A9FADAC35F7A198F934007B700DC4CF/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1044219885549003187/B4EC25D24DAEA4894E78FA4C28AAF9A6FE50764F/", back : "http://cloud-3.steamusercontent.com/ugc/1044219885549045033/5128DEC8747B839A25F6A1189BD8EDF47A57441C/",],
+        cToken : ["Bleed", "Poison", "Stun"], cGem : [],
+        UIOffset : 220,UIName : "ProximaMidnight", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877527857/197D77F88E43FA1F7A24C957CFC5FE5F7EFD10E3/",],
+
+    [cName : "Punisher",                cBase : small,          threat : 3, cStamH : 6, cStamW : 5, def : [p : 3, e : 3, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1673610155139780724/8816029A0FA2A2B7FC47A788F2F27DA291C821AD/", cModelRot : 205,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1559892058415189697/87D3B15A50CBAC18651999F58AE59AA6A4F27533/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1559892058415189943/51FC6BA7345980B301CB7F617C1B1A5319CC0673/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1667979623995893483/F6183991B7A2AC5D7477E75EFC11E4E14DCF7362/", back : "http://cloud-3.steamusercontent.com/ugc/1667979623995893730/72AAC2F8B4A5398E36B026DC581B3132C38CC676/",],
+        cToken : ["Punishment", "Stun", "Slow"], cGem : [],
+        UIOffset : 220, UIName : "Punisher", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877528136/04A2DE51A0FD77A92934C67D736FF67D360D3A75/",],
+
+    [cName : "Red Skull",               cBase : small,          threat : 4, cStamH : 6, cStamW : 6, def : [p : 4, e : 3, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1034085930813423528/B8317EEA965E0A0CECB29570019DEFF8C450D161/", cModelRot : 285,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/784129708166575490/AB84B2666CAAD7B4F86C1C4E73249DAADB283D99/", cFigB : "http://cloud-3.steamusercontent.com/ugc/784129708166576012/B83EF0B5A1B4B72BA1FE8E7E65A2F457CE8B03B2/",
+        cCard : [face : ["http://cloud-3.steamusercontent.com/ugc/1044218785742783143/D8CF3E1FEEAD5B1F37C64FC0D748AA5270567D8C/", "http://cloud-3.steamusercontent.com/ugc/1044218785742786868/4A6A47EFF329C0EE2221E4661B8A3F9C17C014DA/",],
+                 back : ["http://cloud-3.steamusercontent.com/ugc/1044218785742785207/EDC35862763F33AD962E2E5A8EC971640BFE130A/", "http://cloud-3.steamusercontent.com/ugc/1044218785742788640/819711D7C670A56B54FA4A4E5139A922DD8168E0/",],],
+        cToken : ["Stun"], cGem : [], leadership : "Cabal",
+        UIOffset : 200, UIName : "RedSkull", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877528536/0737F6AB94DA0C2963F396AC730619731D2C69B0/",],
+
+    [cName : "Rocket Raccoon",          cBase : small,          threat : 2, cStamH : 3, cStamW : 3, def : [p : 2, e : 2, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1034086324430403942/CD7A7E33B50ADED0FE31C065C6B6B1904BDCF0C8/", cModelRot : 150,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/784129568344667975/78F285BA0ADA26D9F0930F6737DB5F2D5200610F/", cFigB : "http://cloud-3.steamusercontent.com/ugc/784129568344668394/6DB2ED2322053DBB326B8443AA313700805CFEB2/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1044218785742790127/D0B653BD3E1AB182B5CC7D04B213DFA4DBA77045/", back : "http://cloud-3.steamusercontent.com/ugc/1044218785742791228/017A21E6388475F46B3271F9237409B1B1358CD9/",],
+        cToken : [], cGem : [],
+        UIOffset : 135, UIName : "RocketRaccoon", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877528873/6F76B9A0426BB476689D1C029B894A86420EDF93/",],
+
+    [cName : "Ronan the Accuser",       cBase : medium,         threat : 4, cStamH : 6, cStamW : 6, def : [p : 3, e : 4, m : 4], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1169194945070746994/12F5280524BF5F619DDD311528D8AC90059DD2E9/", cModelRot : 285,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1044219484637972107/08101FB875E85F482D204B8B021D945D1179B6DF/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1044219484637972920/31F47300B766D5BB031FFDD706BD6C12E9A2D043/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1331327250921536146/24554AC5ED7E9EF0493008E5C765BD2505E1F648/", back : "http://cloud-3.steamusercontent.com/ugc/1331327250921536774/51A60739CF1F8ADC13A8AB7139A5D1ACBB031E9C/",],
+        cToken : ["Judgement", "Shock", "Stun", "Stagger"], cImmune : ["Poison"], cGem : ["Power"],
+        UIOffset : 220, UIName : "Ronan", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877529144/005B25E840291DF2EB7E5CE1E622C0658D6443F0/",],
+
+    [cName : "Sabretooth",              cBase : small,          threat : 4, cStamH : 6, cStamW : 6, def : [p : 3, e : 3, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1645466345443399349/7E97543131FBE88A6C15B03621E72C3DC75EADA5/", cModelRot : 330,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1670231819417010071/A9BA162A3519A16ECB40A67D905760975AE1B071/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1670231819417010396/6CB811D0D9951A2B93C0218D54562C1F4D3DCA76/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1684871056582874334/EFF186F0148F9F4396967A5F1681B44EFDF6FAE3/",back : "http://cloud-3.steamusercontent.com/ugc/1684871056582874723/6BFA17D1905016EEB77056F3AE50A3F8AEA18C8A/",],
+        cToken : ["Bleed"], cGem : [],
+        UIOffset : 270, UIName : "Sabretooth", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877529385/3FEFADB91E334C739CEA627773DCD3D8A90E76AA/",],
+
+    [cName : "She-Hulk",                cBase : medium,         threat : 6, cStamH : 20, cStamW : 0, def : [p : 3, e : 4, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1660106840740054342/05CE55CF3C13D61C38449325F45424BDAF0A8937/", cModelRot : 0,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1669111042316629048/45C4D5EFD727E54C0194C1A1422E22AEB478A284/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1669111042316629196/7FF4C91DCFE020EB031E752E273222A6681995DE/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1683750364035703726/3241A3D0BF1CE652F6207B62BB9F6EFA9BCB3A9B/", back : "http://cloud-3.steamusercontent.com/ugc/1683750364035703726/3241A3D0BF1CE652F6207B62BB9F6EFA9BCB3A9B/",],
+        cToken : ["Slow", "Stun", "Stagger"], cImmune : ["Poison"], cGem : [], leadership : "A Force", cPower : 1,
+        UIOffset : 295, UIName : "SheHulk", UIurl : "http://cloud-3.steamusercontent.com/ugc/1669111042318320588/350756D5E344721F15C817F1E341B7B12970B3FE/",],
+
+    [cName : "Shuri",                   cBase : small,          threat : 3, cStamH : 5, cStamW : 5, def : [p : 3, e : 3, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1169195415760470087/9C480BDAEA08BA919A1F1BEF8B3FE6400C1A5387/", cModelRot : 135,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/784129568344474932/8D32BB8E03DA21D65450B3012D857FB168CAA11E/", cFigB : "http://cloud-3.steamusercontent.com/ugc/784129568344475348/00600D55E3D1F102E5BAB5807BABA9B2AC1E0169/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1044218785742793267/2C17ECA12B58EE12C3E95B1ECB6B7E1B885F58F4/", back : "http://cloud-3.steamusercontent.com/ugc/1044218785742794211/A7C2A4818FC98CF6EEEF4E632B4FC982E00E73B4/",],
+        cToken : ["Stun", "Stagger"],cGem : [],
+        UIOffset : 200, UIName : "Shuri", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877529704/0A30662A23168843ADB9061C7137551E8B158B2C/",],
+
+    [cName : "Spider-Man (Miles Morales)", cBase : small,       threat : 3, cStamH : 5, cStamW : 5, def : [p : 3, e : 3, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1477697648590057183/685798A7151B21D66B2C773A560A0BF4732B4F63/", cModelRot : 240,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1481072391443800120/237B4BC2A453347272C254CCCFCDC5FDA533F260/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1481072391443800335/14B799E9A3DCF26C12C87387FE6DADD14F698689/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1487830416937611972/AD1A15069C10EDA96BB764806FEE3F0AF876509F/", back : "http://cloud-3.steamusercontent.com/ugc/1487830416937613876/B0910253C99C336773A929CC3FEC7BA2A59021E3/",],
+        cToken : ["Slow"], cGem : [], stealth : true, leadership : "Web Warriors",
+        UIOffset : 200, UIName : "Miles", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877525760/3A02E510A5681F60AA48BBEBD9088FD709DEAFC0/",],
+
+    [cName : "Spider-Man (Peter Parker)", cBase : small,        threat : 4, cStamH : 5, cStamW : 5, def : [p : 3, e : 3, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1034085930814839090/C859554A9D44E86E5EFE7FB6F1119E64CB2A4EB9/", cModelRot : 0,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/784129708166463488/5EA97D1B37675DFA5CA0AE94416D75E3A47424FA/", cFigB : "http://cloud-3.steamusercontent.com/ugc/784129708166465100/07A04309F979FC08C4D2C5344391E9ACB82538DF/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1044218785742795971/E8C21C63C5694699187AADBAFA3DC595B8D2F17C/", back : "http://cloud-3.steamusercontent.com/ugc/1044218785742797625/B23898F1D11FEBE32C821BAD2BDEBE5A743B7E53/",],
+        cToken : ["Stun"], cGem : [],
+        UIOffset : 180, UIName : "Peter", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877527433/06405C123F1ACF84CB5837BBF7BB4A98D8EB861C/",],
+
+    [cName : "Star-Lord",               cBase : small,          threat : 3, cStamH : 6, cStamW : 5, def : [p : 3, e : 3, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1034086324429074056/6685225B96DE0ED5A62080D8F58462D209E9104A/", cModelRot : 270,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/784129708166422785/93DE12500ACF7286B8106851C40CB4FB8F976D8D/", cFigB : "http://cloud-3.steamusercontent.com/ugc/784129708166423309/865DF607316519E96CE78C13D8720A081DDB4210/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1044218785742799634/1E59999B69D379DD50B5D767F88571BD4B42DF6E/", back : "http://cloud-3.steamusercontent.com/ugc/1044218785742800913/7BBF3903323F06F2000AEBEC1003FD72FCFF6918/",],
+        cToken : ["Winging It", "Bleed", "Shock", "Slow", "Stun"], cGem : ["Power"], leadership : "Guardians of the Galaxy",
+        UIOffset : 260, UIName : "Starlord", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877530030/FD9FC9264E6743D9FF2344D18094249AF85E63DD/",],
+
+    [cName : "Storm",                   cBase : small,          threat : 3, cStamH : 5, cStamW : 5, def : [p : 3, e : 4, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1645465827543012673/AFED50FEE1A3690BA5561227F4825A6D5720E9E7/", cModelRot : 0,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1697254655122066138/90EBBA1E28C421B1322CCCCEBCC67BB5516197C1/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1697254655122066375/B991862121B8458AFF25D8B2B0BA96DE26DE5BCE/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1683750656978960381/38249356A0BD499B308C13632921B89E4084C7D6/", back : "http://cloud-3.steamusercontent.com/ugc/1683750656978959848/AF9D01B18C72CD5D7608698A764AF2A3CB932554/",],
+        cToken : ["Shock", "Stun"], cImmune : ["Shock"], cGem : [], stealth : true, leadership : "Uncanny XMen",
+        UIOffset : 290, UIName : "Storm", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877530380/42A51844E750F89BCE8A6C0D5EEC66152B19C4BA/",],
+
+    [cName : "Taskmaster",              cBase : small,          threat : 3, cStamH : 6, cStamW : 5, def : [p : 3, e : 3, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1673610155139601501/919A63FF1EF81BAFF8D6D20A4AA2999E34B9BF18/", cModelRot : 75,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1559892058415186566/65C04EE538288A992A83EC25076782494C00353E/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1559892058415186830/91DD22245B78F348D2B6DA180AAC5385DB4B4FC6/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1669110499236170607/79EBA6455C66A20D924589FDFBCB84BD04FC6F18/", back : "http://cloud-3.steamusercontent.com/ugc/1669110499236170924/B518C6A25AA7E5AD0D6E77301F74DC2F4CF8499E/",],
+        cToken : ["Bleed"], cGem : [],
+        UIOffset : 200, UIName : "Taskmaster", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877530658/AE07825FA98365E3EE456CC4B4E28B48CF60FEB7/",],
+
+    [cName : "Thanos, The Mad Titan",   cBase : medium,         threat : 6, cStamH : 8, cStamW : 9, def : [p : 3, e : 3, m : 4], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1457428670514469993/BA6CA45C2D7E03F77F1540ABC53F089015060BFF/", cModelRot : 15,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1192838843109483775/5587C7B521DD719F3D547D9849B1D1C403AA2F58/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1192838843109484165/B69A24211744EE33249B59048B9BF700128D0691/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1481072688820699939/8756458E8709537439F68134570A59B03B8C2570/", back : "http://cloud-3.steamusercontent.com/ugc/1481072688820700123/3273F82546033C94B59655E704582A906C55E498/",],
+        cToken : ["Slow"], cImmune : ["Stun"], cGem : ["Power", "Time", "Soul", "Reality", "Mind", "Space"], leadership : "Black Order",
+        UIOffset : 280, UIName : "Thanos", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877531026/492EFC29BC7523F5A8B57D22FF20BD702697A146/",],
+
+    [cName : "Thor, Prince of Asgard",  cBase : small,          threat : 5, cStamH : 6, cStamW : 8, def : [p : 4, e : 4, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1034085930813453370/54A4B33B59AD76AB669B1024ECC3D5DC8AAFD74A/", cModelRot : 0,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/784129708166388407/1505B4AC9DF5CE650C1F06BFA71224B4BD720A9F/", cFigB : "http://cloud-3.steamusercontent.com/ugc/784129708166389034/2958E2BBCF732420471203126A2B076AD1FBCD03/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1044218785742802503/09F0037EA080030F493884DAEC6010030C888CBB/",back : "http://cloud-3.steamusercontent.com/ugc/1044218785742803619/4D787308D35A649257C5D5B213AE99876A90418F/",],
+        cToken : ["Shock", "Stagger"], cGem : [], leadership : "Asgard", cPower : 1,
+        UIOffset : 290, UIName : "Thor", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877531399/25748ECDFFF176BFB0B3E1AB5439B7ADBA7594AB/",],
+
+    [cName : "Toad",                    cBase : small,          threat : 2, cStamH : 5, cStamW : 3, def : [p : 3, e : 3, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1645465827542244156/657874F63DCD97C647ACDC973AB2A0F7533D6D02/", cModelRot : 0,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1670232302187783643/2BF96BAD7A4DAA87024FDF97A3D19C9BD3D001C7/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1670232302187783770/1ADD553A6D2AB2FB0C5360AABE44AB1F746EAB93/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1684871056582875747/041B9A32FB7CA3F742E9364A6BD0D484EC7F4CE3/", back : "http://cloud-3.steamusercontent.com/ugc/1684871056582876109/6CBDF3B66BD00E5A91E525F4740931E4CA41B98E/",],
+        cToken : ["Incinerate"], cGem : [],
+        UIOffset : 180, UIName : "Toad", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877531748/653C7081B1F8FFAD7AF72A3503A5C35C6AE2D24E/",],
+
+    [cName : "Ultron",                  cBase : medium,         threat : 4, cStamH : 6, cStamW : 5, def : [p : 4, e : 3, m : 4], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1034086185604320460/746EC75CD4CB600331571700326ECED4962358C6/", cModelRot : 210,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/784129708166352619/C274B1A122707B1FA069725DC39FA01DA2CFE31B/", cFigB : "http://cloud-3.steamusercontent.com/ugc/784129708166353271/E2C4297054CE510BBC2575F3FF0C437C8CBC4D36/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1293045997788739740/658780D45BC448FFE105B44BC5F7E6F350741F41/", back : "http://cloud-3.steamusercontent.com/ugc/1293045997788740381/874EA8F1A6DD6BC5235893EBACD08343A1880D31/",],
+        cToken : ["Bleed"], cImmune : ["Bleed", "Poison"], cGem : [],
+        UIOffset : 260,UIName : "Ultron", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877532056/2CF617DE125970430343AFA07D972BF7390895E3/",],
+
+    [cName : "Valkyrie",                cBase : small,          threat : 3, cStamH : 6, cStamW : 5, def : [p : 3, e : 3, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1034085930810395805/223E4D91CC3A7D607F17070C2AECA361342DD963/", cModelRot : 15,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/784129568344515991/4ECFECCC7F532521AF0F93A36F8EF88102FB1504/", cFigB : "http://cloud-3.steamusercontent.com/ugc/784129568344516406/ADA3FCDBF39F4E44EFC7898E139CB506E2F2F263/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1044218785742806914/5DEEAE3C5F4128379EBC8B80FAEA85D711C20B37/", back : "http://cloud-3.steamusercontent.com/ugc/1044218785742807718/08014050480EB24617A8178733B105C0F4A11127/",],
+        cToken : ["Bleed"], cGem : [], cPower : 1,
+        UIOffset : 230, UIName : "Valkyrie", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877532665/44041601E46BB0F7F4EF8F20E49351C6FCD43EC3/",],
+
+    [cName : "Venom",                   cBase : medium,         threat : 4, cStamH : 7, cStamW : 6, def : [p : 4, e : 2, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1034086185603028001/EFE3B0D02999477FAF455AF12AF7595FC6D55FC5/", cModelRot : 195,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/784129568344723484/1EA6B92540A5B08B0F5201224422044AB14C3F39/", cFigB : "http://cloud-3.steamusercontent.com/ugc/784129568344723860/90FDC45DB99C674A156FC3BC3CBEB716EA3E6B6F/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1044218785742808655/8D03502D34F91D70BB36E5984D08370A399A7625/", back : "http://cloud-3.steamusercontent.com/ugc/1044218785742809543/438650570498D51AE551210E8E1B5B89AD40F024/",],
+        cToken : ["Bleed"], cGem : [],
+        UIOffset : 230, UIName : "Venom", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877532932/F613A7466F1AAD9D4F03D3E124967F0E1820532E/",],
+
+    [cName : "Vision",                  cBase : small,          threat : 4, cStamH : 6, cStamW : 6, def : [p : 2, e : 2, m : 4], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1169195415761395607/634DA7B8C076BF77F27B439BF32E8246B7B89F7A/", cModelRot : 75,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/784129568344371153/C20319BE379696BC61C9C4793EB82A2AC806AF3D/", cFigB : "http://cloud-3.steamusercontent.com/ugc/784129568344373611/AFAED7897A2A538499F314E2FA3AAA8577B2A9E5/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1044218785742810574/8761B696962AA66CBEA67D8D06384437DD65363B/", back : "http://cloud-3.steamusercontent.com/ugc/1044218785742811369/C349EF8BB9FA4087B47D9715BF806A612B1C70E0/",],
+        cToken : ["Phased"], cImmune : ["Bleed", "Poison"], cGem : [],
+        UIOffset : 210, UIName : "Vision", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877533203/47035C7CECC65D212D64CC6F64C69984168EFDF4/",],
+
+    [cName : "Wasp",                    cBase : small,          threat : 3, cStamH : 5, cStamW : 5, def : [p : 3, e : 2, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1536247897964157979/027D5C6C1D4E409FD68954176B764E9407ABD6A0/", cModelRot : 0,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1481072828755554779/F649ED5CF80BA7A580D154F8DFA9A9FEB8DDF722/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1481072828755554971/39BBBA952D25769ABA61A1B2E38C695EA52751C7/",
+        --Transform assets for tiny wasp
+        transform : true,
+        cTModel : "http://cloud-3.steamusercontent.com/ugc/1536247897964645007/2EF10B2566A0C34C7BD80EB427B287FA3621A018/",
+        cTFigA : "http://cloud-3.steamusercontent.com/ugc/1481072828755553317/DABF5C4527E6D483D2D26AE54815587C6F993AE8/", cTFigB : "http://cloud-3.steamusercontent.com/ugc/1481072828755553522/3BCC25A0E7AD3D8936D3E027B46716A28F23E59B/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1626318733886262157/12AD37FB991BF7FBB56FBF85FB712369EBA8D2B3/", back : "http://cloud-3.steamusercontent.com/ugc/1626318733886262780/A91EE1CFCACD13AD224E127495FF101C5B805416/",],
+        cToken : [], cGem : [], stealth : true,
+        UIOffset : 200, UIName : "Wasp", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877533502/F3F302F883A7E417F5D081F439D199D67EF3126E/",],
+
+    [cName : "Winter Soldier",          cBase : small,          threat : 3, cStamH : 5, cStamW : 6, def : [p : 3, e : 3, m : 2], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1034086185602680172/0C807A3765EFBC30FC09C70C7DBCBE2F33BC525C/", cModelRot : 105,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/784129568344446756/F59B50B4B5661EA3AA298C0414D303BF0C0B160D/", cFigB : "http://cloud-3.steamusercontent.com/ugc/784129568344447269/41091B293A80CE4DC47271B5041FF71224258858/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1044218785742812176/007AE097A9D1D9FDEF47DFEE47372919C6C6BBF1/", back : "http://cloud-3.steamusercontent.com/ugc/1044218785742813144/D9482BA95AFCB2DD6D11DB24977E763A47A245BB/",],
+        cToken : ["Bleed"], cGem : [],
+        UIOffset : 180, UIName : "WinterSoldier", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877533750/866FF8C5F503F8E4F1770B6A3620A5AB8E5CBBC5/",],
+
+    [cName : "Wolverine",               cBase : small,          threat : 4, cStamH : 7, cStamW : 5, def : [p : 4, e : 3, m : 2], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1645466345442899982/8D87080115C3A97E2289E456618BC796FE24253C/", cModelRot : 240,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1670231819416980036/6E03D270971A8595C7C7F54137EC5704CD4EA685/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1670231819416980252/415D483223EE6D4DB1C6AF9433E29426A48BBD9B/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1684871056582876529/7A522C9AD1C4563B261358B12FADB85E310D3AB0/", back : "http://cloud-3.steamusercontent.com/ugc/1684871056582876873/A5434EE90411A77B6A682BA1535E30607ACDDF86/",],
+        cToken : ["Bleed"], cImmune : ["Stun"], cGem : [],
+        UIOffset : 200,UIName : "Wolverine", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877534037/AC71AE49EC63E015B9BCE68E912923F132416431/",],
+
+    [cName : "Wong",                    cBase : small,          threat : 2, cStamH : 4, cStamW : 4, def : [p : 2, e : 3, m : 3], released : true,
+        cModel : "http://cloud-3.steamusercontent.com/ugc/1536247828042486394/18AB75869FB4A95ECF1681D57A8B7974DA8E0658/", cModelRot : 0,
+        cFigA : "http://cloud-3.steamusercontent.com/ugc/1484450935820445484/6C1C52D77A27EFCC14BA36A1E86804413A61E01A/", cFigB : "http://cloud-3.steamusercontent.com/ugc/1484450935820445610/1B4878542B4F30076CBE682F429533D6DFBDBD88/",
+        cCard : [face : "http://cloud-3.steamusercontent.com/ugc/1626318733886179434/615BDA907D443725D4B5CAEECFDD4BB6A6F8B3E1/", back : "http://cloud-3.steamusercontent.com/ugc/1626318733886179998/4C99D8DF2F67340ABE6658ECFD47E626A07779F4/",],
+        cToken : [], cGem : [],
+        UIOffset : 245, UIName : "Wong", UIurl : "http://cloud-3.steamusercontent.com/ugc/1696129012877534310/0091C28557BF2C8D2EB82A4278253B9C6A4686D4/",],
+
+]
